@@ -1,0 +1,9 @@
+{
+  "name":"高校入試10問",
+  "short_name":"入試10問",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f3f4f6",
+  "theme_color":"#111827",
+  "lang":"ja"
+}

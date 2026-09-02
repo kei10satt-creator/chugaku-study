@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>高校入試10問</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">2028年3月 高校入試</div>
+        <h1>高校入試10問</h1>
+      </div>
+      <div class="streak" id="streak">🔥 0日</div>
+    </header>
+
+    <section id="homeView" class="view active">
+      <section class="hero card">
+        <p class="muted">毎日10問。正解だけでなく「本当にわかっていたか」を記録。</p>
+        <div class="metrics">
+          <div><span id="todayDone">0/10</span><small>今日</small></div>
+          <div><span id="overallCorrect">--%</span><small>正答率</small></div>
+          <div><span id="overallUnderstand">--%</span><small>理解率</small></div>
+        </div>
+        <button class="primary" id="startBtn">今日の10問をはじめる</button>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>学習カレンダー</h2>
+          <div class="month-nav"><button id="prevMonth">‹</button><strong id="monthLabel"></strong><button id="nextMonth">›</button></div>
+        </div>
+        <div class="weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
+        <div id="calendar" class="calendar"></div>
+        <div class="legend"><span>薄</span><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>理解</span></div>
+      </section>
+
+      <section class="card">
+        <h2>教科別</h2>
+        <div id="subjectStats" class="subject-stats"></div>
+      </section>
+    </section>
+
+    <section id="quizView" class="view">
+      <div class="quiz-head">
+        <button class="ghost" id="quitBtn">← 戻る</button>
+        <div id="progressText">1 / 10</div>
+      </div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <article class="card question-card">
+        <div class="question-meta"><span id="subjectBadge"></span><span id="unitText"></span></div>
+        <h2 id="questionText"></h2>
+        <div id="choices" class="choices"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <div id="selfEval" class="self-eval hidden">
+          <p>この問題、どうだった？</p>
+          <button data-eval="known">わかってた</button>
+          <button data-eval="guess">当てずっぽ</button>
+          <button data-eval="unknown">わからない</button>
+        </div>
+      </article>
+    </section>
+
+    <section id="resultView" class="view">
+      <section class="card result-card">
+        <div class="result-emoji">🎉</div>
+        <h2>今日の10問 完了</h2>
+        <div class="result-grid">
+          <div><strong id="resultCorrect">0%</strong><span>正答率</span></div>
+          <div><strong id="resultUnderstand">0%</strong><span>理解率</span></div>
+        </div>
+        <p id="resultNote" class="muted"></p>
+        <button class="primary" id="homeBtn">カレンダーを見る</button>
+      </section>
+    </section>
+  </main>
+<script src="app.js"></script>
+</body>
+</html>
