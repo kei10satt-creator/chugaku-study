@@ -1,83 +1,141 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#111827" />
-  <title>高校入試10問</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.webmanifest" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17191d">
+  <title>高校入試10問 v0.2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
-  <main class="app">
-    <header class="topbar">
-      <div>
-        <div class="eyebrow">2028年3月 高校入試</div>
-        <h1>高校入試10問</h1>
-      </div>
-      <div class="streak" id="streak">🔥 0日</div>
-    </header>
+<main class="app">
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">2028年3月 高校入試</div>
+      <h1>高校入試10問 <small>v0.2</small></h1>
+    </div>
+    <div class="streak" id="streak">0 DAY STREAK</div>
+  </header>
 
-    <section id="homeView" class="view active">
-      <section class="hero card">
-        <p class="muted">毎日10問。正解だけでなく「本当にわかっていたか」を記録。</p>
-        <div class="metrics">
-          <div><span id="todayDone">0/10</span><small>今日</small></div>
-          <div><span id="overallCorrect">--%</span><small>正答率</small></div>
-          <div><span id="overallUnderstand">--%</span><small>理解率</small></div>
-        </div>
+  <section id="homeView" class="view active">
+    <section class="hero card">
+      <div class="hero-kicker" id="heroKicker">TODAY</div>
+      <h2 id="heroMessage">さぁ、今日も始めよう。</h2>
+      <p class="muted" id="heroSub">毎日10問。今日の一歩を積み重ねる。</p>
+      <div id="beforeActions">
         <button class="primary" id="startBtn">今日の10問をはじめる</button>
-      </section>
-
-      <section class="card">
-        <div class="section-head">
-          <h2>学習カレンダー</h2>
-          <div class="month-nav"><button id="prevMonth">‹</button><strong id="monthLabel"></strong><button id="nextMonth">›</button></div>
-        </div>
-        <div class="weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
-        <div id="calendar" class="calendar"></div>
-        <div class="legend"><span>薄</span><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>理解</span></div>
-      </section>
-
-      <section class="card">
-        <h2>教科別</h2>
-        <div id="subjectStats" class="subject-stats"></div>
-      </section>
-    </section>
-
-    <section id="quizView" class="view">
-      <div class="quiz-head">
-        <button class="ghost" id="quitBtn">← 戻る</button>
-        <div id="progressText">1 / 10</div>
       </div>
-      <div class="progress"><div id="progressBar"></div></div>
-      <article class="card question-card">
-        <div class="question-meta"><span id="subjectBadge"></span><span id="unitText"></span></div>
-        <h2 id="questionText"></h2>
-        <div id="choices" class="choices"></div>
-        <div id="feedback" class="feedback hidden"></div>
-        <div id="selfEval" class="self-eval hidden">
-          <p>この問題、どうだった？</p>
-          <button data-eval="known">わかってた</button>
-          <button data-eval="guess">当てずっぽ</button>
-          <button data-eval="unknown">わからない</button>
-        </div>
-      </article>
+      <div id="afterActions" class="action-stack hidden">
+        <button class="primary" id="moreBtn"><b>もう10問</b><span>新しい問題を中心に挑戦</span></button>
+        <button class="secondary" id="reviewBtn"><b>今日の苦手を復習</b><span>今日つまずいた問題を確認</span></button>
+        <button class="secondary master-action" id="masterBtn"><b>MASTER CHALLENGE</b><span>あと一歩の知識を定着</span></button>
+      </div>
     </section>
 
-    <section id="resultView" class="view">
-      <section class="card result-card">
-        <div class="result-emoji">🎉</div>
-        <h2>今日の10問 完了</h2>
-        <div class="result-grid">
-          <div><strong id="resultCorrect">0%</strong><span>正答率</span></div>
-          <div><strong id="resultUnderstand">0%</strong><span>理解率</span></div>
-        </div>
-        <p id="resultNote" class="muted"></p>
-        <button class="primary" id="homeBtn">カレンダーを見る</button>
-      </section>
+    <section class="card">
+      <div class="section-head">
+        <h2>学習カレンダー</h2>
+        <div class="month-nav"><button id="prevMonth">‹</button><strong id="monthLabel"></strong><button id="nextMonth">›</button></div>
+      </div>
+      <div class="weekdays"><span>日</span><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span></div>
+      <div id="calendar" class="calendar"></div>
+      <div class="heat-legend"><span>10問</span><i class="heat1"></i><i class="heat2"></i><i class="heat3"></i><i class="heat4"></i><i class="heat5"></i><span>50問+</span></div>
     </section>
-  </main>
+
+    <section class="card record-card">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow" id="recordEyebrow">TODAY'S RECORD</div>
+          <h2 id="recordTitle">今日の記録</h2>
+        </div>
+        <button class="text-btn hidden" id="backTodayBtn">今日に戻る</button>
+      </div>
+      <div id="emptyRecord" class="empty-record">まだ記録はありません。</div>
+      <div id="recordContent" class="hidden">
+        <div class="today-score">
+          <div><strong id="dayCorrect">--%</strong><span>正答率</span></div>
+          <div><strong id="dayUnderstand">--%</strong><span>理解率</span></div>
+          <div><strong id="dayTotal">0</strong><span>総回答</span></div>
+          <div><strong id="dayMasterPlus">+0</strong><span>MASTER</span></div>
+        </div>
+        <div class="record-breakdown" id="recordBreakdown"></div>
+        <div class="history-head"><h3 id="historyTitle">今日の回答履歴</h3><span id="historyCount"></span></div>
+        <div id="answerHistory" class="answer-history"></div>
+      </div>
+    </section>
+
+    <section class="card lifetime-card">
+      <div class="eyebrow">ALL TIME</div>
+      <h2>これまでの記録</h2>
+      <div class="lifetime-grid">
+        <div class="big-stat"><strong id="totalQuestions">0</strong><span>総学習問題</span></div>
+        <div><strong id="studyDays">0</strong><span>学習日数</span></div>
+        <div><strong id="currentStreak">0</strong><span>連続学習</span></div>
+        <div><strong id="bestStreak">0</strong><span>最高連続</span></div>
+      </div>
+      <div class="master-summary">
+        <div class="master-line"><span>MASTERED</span><strong id="masterTotal">0 / 300</strong></div>
+        <div class="master-bar"><i id="masterBar"></i></div>
+        <div class="master-percent" id="masterPercent">0%</div>
+      </div>
+      <div id="subjectMaster" class="subject-master"></div>
+    </section>
+  </section>
+
+  <section id="quizView" class="view">
+    <div class="quiz-head">
+      <button class="ghost" id="quitBtn">← 戻る</button>
+      <div><span id="modeLabel">TODAY</span> <b id="progressText">1 / 10</b></div>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+    <article class="card question-card">
+      <div class="question-meta"><span id="subjectBadge"></span><span id="unitText"></span></div>
+      <h2 id="questionText"></h2>
+      <div id="choices" class="choices"></div>
+
+      <div id="feedback" class="feedback hidden">
+        <div id="verdict" class="verdict"></div>
+        <div class="answer-line">正解 <strong id="correctAnswer"></strong></div>
+        <div class="explain-block">
+          <span>POINT</span>
+          <p id="explanationText"></p>
+        </div>
+      </div>
+
+      <div id="selfEval" class="self-eval hidden">
+        <p id="evalQuestion"></p>
+        <div id="evalButtons"></div>
+      </div>
+    </article>
+  </section>
+
+  <section id="resultView" class="view">
+    <section class="card result-card">
+      <div class="eyebrow" id="resultEyebrow">SESSION COMPLETE</div>
+      <h2 id="resultTitle">10問完了</h2>
+      <div id="officialResult" class="result-grid">
+        <div><strong id="resultCorrect">0%</strong><span>正答率</span></div>
+        <div><strong id="resultUnderstand">0%</strong><span>理解率</span></div>
+      </div>
+      <p id="resultNote" class="muted"></p>
+      <button class="primary" id="homeBtn">ホームへ</button>
+    </section>
+  </section>
+
+  <div id="detailModal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-sheet">
+      <button id="closeModal" class="modal-close">×</button>
+      <div id="detailStatus" class="detail-status"></div>
+      <div class="question-meta"><span id="detailSubject"></span><span id="detailUnit"></span></div>
+      <h2 id="detailQuestion"></h2>
+      <div class="detail-answer"><span>あなたの回答</span><strong id="detailYourAnswer"></strong></div>
+      <div class="detail-answer correct-detail"><span>正解</span><strong id="detailCorrectAnswer"></strong></div>
+      <div class="explain-block"><span>POINT</span><p id="detailExplanation"></p></div>
+      <div class="detail-eval" id="detailEval"></div>
+    </div>
+  </div>
+</main>
 <script src="app.js"></script>
 </body>
 </html>
