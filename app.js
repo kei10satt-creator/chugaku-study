@@ -142,11 +142,21 @@ function renderDayRecord(key){
   document.getElementById('historyTitle').textContent=isToday?'今日の回答履歴':`${d.getMonth()+1}月${d.getDate()}日の回答履歴`;
   document.getElementById('historyCount').textContent=`${attempts.length}問`;
   const box=document.getElementById('answerHistory');box.innerHTML='';
-  attempts.forEach((a,idx)=>{
-    const q=qmap[a.qid];if(!q)return;const b=document.createElement('button');b.className=`history-item ${a.correct?'correct':'wrong'}`;
-    b.innerHTML=`<span class="mark">${a.correct?'○':'×'}</span><span class="sub">${q.subject}</span><span class="qtext">${escapeHtml(q.question)}</span>`;
-    b.onclick=()=>openDetail(a,q);box.append(b);
-  });
+  const newest=[...attempts].reverse(); let shown=Math.min(10,newest.length);
+  function drawHistory(){
+    box.innerHTML='';
+    newest.slice(0,shown).forEach((a,idx)=>{
+      const q=qmap[a.qid];if(!q)return;const b=document.createElement('button');b.className=`history-item ${a.correct?'correct':'wrong'}`;
+      b.innerHTML=`<span class="mark">${a.correct?'○':'×'}</span><span class="sub">${q.subject}</span><span class="qtext">${escapeHtml(q.question)}</span>`;
+      b.onclick=()=>openDetail(a,q);box.append(b);
+    });
+    if(shown<newest.length){
+      const more=document.createElement('button'); more.className='history-more';
+      more.textContent=`MORE　過去の回答を表示（残り${newest.length-shown}問）`;
+      more.onclick=()=>{shown=Math.min(shown+10,newest.length);drawHistory()}; box.append(more);
+    }
+  }
+  drawHistory();
 }
 function escapeHtml(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function openDetail(a,q){
