@@ -11,3 +11,8 @@
 .choice-note.answer-note{border-left-color:#4d7a6b;background:#f5f8f7}
 .memory-tip{margin-top:12px;padding-top:10px;border-top:1px solid #e0e3e6;font-size:14px;line-height:1.6}
 .memory-tip b{margin-right:8px;letter-spacing:.08em}
+/* v0.5 compact visual explanations */
+.explain-main{white-space:pre-line;line-height:1.75}
+.mini-diagram{margin:14px 0;padding:12px;border:1px solid rgba(128,128,128,.25);border-radius:14px;display:grid;gap:5px;text-align:center}
+.mini-diagram svg{width:100%;max-width:360px;margin:auto}.mini-diagram svg line{stroke:currentColor;stroke-width:3}.mini-diagram .angle-mark{fill:none;stroke:#b45309;stroke-width:5}.mini-diagram text{fill:currentColor;font-size:18px;font-weight:800}.mini-diagram span{font-size:.9rem;opacity:.75}
+.explain-main{white-space:pre-line}

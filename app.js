@@ -1,5 +1,5 @@
-const STORAGE='kokoQuizV04';
-const OLD_STORAGES=['kokoQuizV03','kokoQuizV02','kokoQuizV01'];
+const STORAGE='kokoQuizV05';
+const OLD_STORAGES=['kokoQuizV04','kokoQuizV03','kokoQuizV02','kokoQuizV01'];
 const STAGES=[{level:1,target:300},{level:2,target:600},{level:3,target:1000},{level:4,target:2000}];
 const SUBJECTS=['国語','数学','英語','理科','社会'];
 let questions=[], qmap={};
@@ -172,6 +172,7 @@ function explanationHtml(q){
   if(Array.isArray(q.choiceNotes)&&q.choiceNotes.length){
     parts.push('<div class="choice-notes">'+q.choiceNotes.map((n,i)=>`<div class="choice-note ${i===q.answer?'answer-note':''}"><b>${i+1}.</b> ${escapeHtml(n)}</div>`).join('')+'</div>');
   }
+  if(q.diagram==='alternateAngles')parts.push(`<div class="mini-diagram" aria-label="錯角の図"><svg viewBox="0 0 320 150" role="img"><line x1="20" y1="45" x2="300" y2="45"/><line x1="20" y1="110" x2="300" y2="110"/><line x1="105" y1="10" x2="215" y2="145"/><path class="angle-mark" d="M135 45 A28 28 0 0 1 153 66"/><path class="angle-mark" d="M169 89 A28 28 0 0 1 187 110"/><text x="137" y="76">①</text><text x="176" y="94">②</text></svg><b>①と②が錯角。平行線なら①＝②</b><span>「Z」の形で向かい合う角を探そう。</span></div>`);
   if(q.memoryTip)parts.push(`<div class="memory-tip"><b>覚え方</b> ${escapeHtml(q.memoryTip)}</div>`);
   return parts.join('');
 }

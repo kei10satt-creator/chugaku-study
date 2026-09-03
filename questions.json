@@ -387,7 +387,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「何度も試し、失敗しながら解決法を探すこと」です。"
+    "explanation": "試行錯誤は、いろいろな方法を試し、失敗もしながら正しい方法に近づくこと。",
+    "choiceNotes": [
+      "「一度で正解」は試行錯誤ではない。",
+      "結果を考えない、という意味ではない。",
+      "何度も試して改善すること。",
+      "人任せにする意味ではない。"
+    ],
+    "memoryTip": "「試行＝試す」「錯誤＝間違い」。試して、間違えて、直す。"
   },
   {
     "id": "q027",
@@ -402,7 +409,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「状況に応じて適切に対応すること」です。"
+    "explanation": "臨機応変は、その場の状況に合わせて適切な対応を変えること。",
+    "choiceNotes": [
+      "人の意見を無視する意味ではない。",
+      "準備しないことではない。",
+      "方法を固定することの反対。",
+      "状況に応じて柔軟に対応すること。"
+    ],
+    "memoryTip": "「機に臨み、変に応ず」＝その時その場に合わせる。"
   },
   {
     "id": "q028",
@@ -417,7 +431,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「多くの人が同じことを言うこと」です。"
+    "explanation": "異口同音は、多くの人が口をそろえて同じことを言うこと。",
+    "choiceNotes": [
+      "意見がばらばら、ではない。",
+      "一人で話し続ける意味ではない。",
+      "別の口から同じ音＝みんな同じ意見。",
+      "沈黙する意味ではない。"
+    ],
+    "memoryTip": "「異なる口」でも「同じ音」。"
   },
   {
     "id": "q029",
@@ -432,7 +453,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「昔のことを学び、新しい知識や道理を得ること」です。"
+    "explanation": "温故知新は、昔のことを学び直し、そこから新しい知識や考えを得ること。",
+    "choiceNotes": [
+      "知識を使わない意味ではない。",
+      "新しいものだけを見るのではない。",
+      "昔をたずねて新しきを知る。",
+      "古い考えを全部捨てる意味ではない。"
+    ],
+    "memoryTip": "温故＝古きをたずねる、知新＝新しきを知る。"
   },
   {
     "id": "q030",
@@ -447,7 +475,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「互いに励まし合い、学問や技術を高めること」です。"
+    "explanation": "切磋琢磨は、仲間どうしで励まし合い、競い合って学問や技術を高めること。",
+    "choiceNotes": [
+      "互いに高め合うこと。",
+      "競争を避ける意味ではない。",
+      "相手を批判することが目的ではない。",
+      "途中でやめる意味ではない。"
+    ],
+    "memoryTip": "友達と切磋琢磨する＝互いに成長する。"
   },
   {
     "id": "q031",
@@ -462,7 +497,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「長所も短所もあること」です。"
+    "explanation": "一長一短は、長所もあれば短所もあること。",
+    "choiceNotes": [
+      "短所だけではない。",
+      "長所と短所の両方がある。",
+      "差がない、という意味ではない。",
+      "長所だけではない。"
+    ],
+    "memoryTip": "一つの長所、一つの短所、と覚える。"
   },
   {
     "id": "q032",
@@ -477,7 +519,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「大切なこととそうでないことを取り違えること」です。"
+    "explanation": "本末転倒は、大切なことと枝葉のことを取り違えてしまうこと。",
+    "choiceNotes": [
+      "本来の目的と手段などを逆にすること。",
+      "やり遂げる意味ではない。",
+      "基本を守る意味ではない。",
+      "順序よく進む意味ではない。"
+    ],
+    "memoryTip": "「本＝大事」「末＝枝葉」が転倒する。"
   },
   {
     "id": "q033",
@@ -492,7 +541,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「行動が非常にすばやいこと」です。"
+    "explanation": "電光石火は、稲妻や火花のように行動が非常にすばやいこと。",
+    "choiceNotes": [
+      "非常にすばやいこと。",
+      "深く考える意味ではない。",
+      "時間がかかることの反対。",
+      "静かに待つ意味ではない。"
+    ],
+    "memoryTip": "電光＝稲妻、石火＝火打ち石の火花。どちらも一瞬。"
   },
   {
     "id": "q034",
@@ -507,7 +563,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「自分の考えなく他人の意見に同調すること」です。"
+    "explanation": "付和雷同は、自分の考えを持たず、むやみに他人の意見に合わせること。",
+    "choiceNotes": [
+      "根拠を示して反論するのとは違う。",
+      "協力そのものを表す語ではない。",
+      "自分の考えなく周囲に同調すること。",
+      "信念を貫くことの反対。"
+    ],
+    "memoryTip": "「みんなが言うから自分も」になっていないかで判断。"
   },
   {
     "id": "q035",
@@ -522,7 +585,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「細かな違いはあっても大体は同じこと」です。"
+    "explanation": "大同小異は、細かな違いはあるが、大体は同じであること。",
+    "choiceNotes": [
+      "正反対という意味ではない。",
+      "一部だけ同じ、よりも全体として似ている。",
+      "大きくは同じで、小さな違いがある。",
+      "比較不能という意味ではない。"
+    ],
+    "memoryTip": "大きく同じ、小さく異なる。"
   },
   {
     "id": "q036",
@@ -537,7 +607,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「形容動詞」です。"
+    "explanation": "「静かな」は「静かだ」が名詞「町」を修飾した形。形容動詞は「〜だ」で言い切れる。",
+    "choiceNotes": [
+      "形容詞は「美しい」など、基本形が「い」で終わる。",
+      "副詞は主に動詞・形容詞などを修飾する。",
+      "連体詞は「この・大きな」など、活用しない。",
+      "「静かだ」→形容動詞。"
+    ],
+    "memoryTip": "「〜だ」で言い切れるかを見る。静かだ・元気だ。"
   },
   {
     "id": "q037",
@@ -552,7 +629,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「副詞」です。"
+    "explanation": "「とても」は「速く」を詳しくしている。副詞は動詞・形容詞・形容動詞などを修飾する。",
+    "choiceNotes": [
+      "形容詞は「美しい・速い」など。",
+      "「とても」は副詞。",
+      "連体詞は名詞を直接修飾する。",
+      "接続詞は文と文をつなぐ。"
+    ],
+    "memoryTip": "「とても・かなり・ゆっくり」は副詞の代表。"
   },
   {
     "id": "q038",
@@ -567,7 +651,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「接続詞」です。"
+    "explanation": "「しかし」は前の内容と反対・対立する内容をつなぐ接続詞。",
+    "choiceNotes": [
+      "「しかし」は接続詞。",
+      "感動詞は「ああ・はい」など。",
+      "副詞は動作や状態を詳しくする。",
+      "助詞は語と語の関係を示す。"
+    ],
+    "memoryTip": "しかし・だが＝逆接の接続詞。"
   },
   {
     "id": "q039",
@@ -582,7 +673,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「連体詞」です。"
+    "explanation": "「この」は名詞「本」を直接修飾する連体詞。活用しない。",
+    "choiceNotes": [
+      "形容詞は「美しい」など。",
+      "「この・その・あの・どの」は連体詞。",
+      "助動詞は用言などに付いて意味を添える。",
+      "副詞は主に用言を修飾する。"
+    ],
+    "memoryTip": "「この・その・あの・どの」＝連体詞。"
   },
   {
     "id": "q040",
@@ -597,7 +695,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「助詞」です。"
+    "explanation": "「へ」は「学校」と「行く」の関係を示す助詞。方向を表している。",
+    "choiceNotes": [
+      "副詞ではない。",
+      "助動詞ではない。",
+      "接続詞ではない。",
+      "「へ」は助詞。"
+    ],
+    "memoryTip": "「学校へ」「東京に」の「へ・に」は助詞。"
   },
   {
     "id": "q041",
@@ -612,7 +717,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「助動詞」です。"
+    "explanation": "「行かない」の「ない」は、動詞「行く」に付いて打消しを表す助動詞。",
+    "choiceNotes": [
+      "副詞ではない。",
+      "助詞ではない。",
+      "打消しの助動詞「ない」。",
+      "単独の形容詞「ない」と区別する。"
+    ],
+    "memoryTip": "「行かない・食べない」のように動詞に付く「ない」は助動詞。"
   },
   {
     "id": "q042",
@@ -627,7 +739,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「形容詞」です。"
+    "explanation": "「美しい」は「い」で言い切ることができ、名詞「花」を修飾している形容詞。",
+    "choiceNotes": [
+      "連体詞ではない。",
+      "形容動詞なら「静かだ」のように「だ」で言い切る。",
+      "「美しい」は形容詞。",
+      "副詞ではない。"
+    ],
+    "memoryTip": "「〜い」で言い切れる語はまず形容詞を疑う。"
   },
   {
     "id": "q043",
@@ -642,7 +761,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「仮定形」です。"
+    "explanation": "「走れば」の「走れ」は、後ろに「ば」が続く仮定形。",
+    "choiceNotes": [
+      "終止形は「走る」。",
+      "未然形は「走ら」。",
+      "連用形は「走り」。",
+      "「走れば」→仮定形「走れ」。"
+    ],
+    "memoryTip": "「〜れば」の直前は仮定形。"
   },
   {
     "id": "q044",
@@ -657,7 +783,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「連用形」です。"
+    "explanation": "「読んだ」は「読む」→「読み」ではなく、音便で「読ん」となった連用形に助動詞「だ」が付いた形。",
+    "choiceNotes": [
+      "命令形は「読め」。",
+      "「読ん」は連用形。",
+      "終止形は「読む」。",
+      "未然形は「読ま」。"
+    ],
+    "memoryTip": "「〜た／〜だ」が付く直前は連用形になることが多い。"
   },
   {
     "id": "q045",
@@ -672,7 +805,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「未然形」です。"
+    "explanation": "「書こう」は、未然形「書こ」に意志・勧誘の助動詞「う」が付いた形。",
+    "choiceNotes": [
+      "連用形は「書き」。",
+      "「書こ」は未然形。",
+      "命令形は「書け」。",
+      "仮定形も「書け」。"
+    ],
+    "memoryTip": "「〜う／〜よう」の直前は未然形。"
   },
   {
     "id": "q046",
@@ -687,7 +827,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「5・7・5」です。"
+    "explanation": "俳句の基本は5・7・5の17音。季語を入れるのが基本。",
+    "choiceNotes": [
+      "7・7・5ではない。",
+      "俳句は5・7・5。",
+      "5・5・7ではない。",
+      "5・7・5・7・7は短歌。"
+    ],
+    "memoryTip": "俳句＝17音、短歌＝31音。"
   },
   {
     "id": "q047",
@@ -702,7 +849,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「5・7・5・7・7」です。"
+    "explanation": "短歌の基本は5・7・5・7・7の31音。",
+    "choiceNotes": [
+      "5・5・7・7ではない。",
+      "5・7・5は俳句。",
+      "7・5・7・5ではない。",
+      "短歌は5・7・5・7・7。"
+    ],
+    "memoryTip": "「5・7・5」までが上の句、「7・7」が下の句。"
   },
   {
     "id": "q048",
@@ -717,7 +871,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「季語」です。"
+    "explanation": "俳句で季節を表す言葉を季語という。例：桜＝春、蝉＝夏、紅葉＝秋、雪＝冬。",
+    "choiceNotes": [
+      "枕詞は和歌などで特定の語にかかる言葉。",
+      "係り結びは古文の文法。",
+      "季節を示す語＝季語。",
+      "序詞は和歌などで特定の語を導く表現。"
+    ],
+    "memoryTip": "季語を見つけると、情景や季節を読み取りやすい。"
   },
   {
     "id": "q049",
@@ -732,7 +893,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「松尾芭蕉」です。"
+    "explanation": "「古池や 蛙飛びこむ 水の音」は松尾芭蕉の代表的な俳句。",
+    "choiceNotes": [
+      "正岡子規は近代俳句を革新した人物。",
+      "松尾芭蕉が正解。",
+      "与謝蕪村も江戸時代の俳人。",
+      "小林一茶も江戸時代の俳人。"
+    ],
+    "memoryTip": "芭蕉＝「古池や」「夏草や」など。"
   },
   {
     "id": "q050",
@@ -747,7 +915,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「語り手」です。"
+    "explanation": "物語の中で出来事を語っている存在を「語り手」という。作者本人と同じとは限らない。",
+    "choiceNotes": [
+      "作者は作品を書いた人。",
+      "読者は作品を読む人。",
+      "主人公は物語の中心人物。",
+      "出来事を語る存在＝語り手。"
+    ],
+    "memoryTip": "「誰の目線で語られているか」を考える。"
   },
   {
     "id": "q051",
@@ -762,7 +937,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「直喩」です。"
+    "explanation": "「〜のようだ」「〜みたいだ」など、たとえることを明示する比喩を直喩という。",
+    "choiceNotes": [
+      "倒置法は語順を入れ替えて強調する。",
+      "隠喩は「〜のようだ」を使わず直接たとえる。",
+      "擬人法は人でないものを人のように表す。",
+      "「〜のようだ」を使う＝直喩。"
+    ],
+    "memoryTip": "直喩＝たとえを直接示す。隠喩＝「彼は太陽だ」のように言い切る。"
   },
   {
     "id": "q052",
@@ -777,7 +959,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「擬人法」です。"
+    "explanation": "人でないものを、人がするように表現するのが擬人法。例「風がささやく」。",
+    "choiceNotes": [
+      "反復法は同じ語句を繰り返す。",
+      "対句は似た形の表現を並べる。",
+      "体言止めは文末を名詞で止める。",
+      "人でないものを人のように＝擬人法。"
+    ],
+    "memoryTip": "「本当に人がする動作か？」を見る。"
   },
   {
     "id": "q053",
@@ -792,7 +981,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「体言止め」です。"
+    "explanation": "文末を名詞（体言）で止め、余韻や強い印象を残す表現が体言止め。",
+    "choiceNotes": [
+      "「静かな夜。」のように名詞で終える。",
+      "反語は疑問形で強く主張する。",
+      "省略法は言葉をあえて省く。",
+      "倒置法は通常の語順を逆にする。"
+    ],
+    "memoryTip": "体言＝名詞。名詞で止めるから体言止め。"
   },
   {
     "id": "q054",
@@ -807,7 +1003,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「反復法」です。"
+    "explanation": "同じ語句を繰り返して、意味やリズム、印象を強めるのが反復法。",
+    "choiceNotes": [
+      "同じ語句を繰り返す＝反復法。",
+      "比喩は別のものにたとえる。",
+      "省略は言葉をあえて省く。",
+      "対句は対応する形の語句を並べる。"
+    ],
+    "memoryTip": "「何度も同じ言葉が出る」なら反復法を疑う。"
   },
   {
     "id": "q055",
@@ -822,14 +1025,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "反語は、疑問の形を使って、実際には反対の意味を強く伝える表現。",
+    "explanation": "反語は、疑問の形を使いながら、実際には反対の内容を強く言い切る表現。例「誰がそんなことを信じるだろうか」＝誰も信じない。",
     "choiceNotes": [
-      "対句：似た形の語句や文を対にして並べる表現。",
-      "反語：疑問形で反対の意味を強く言い切る表現。",
-      "擬音語：音や声を言葉で表す。「ザーザー」など。",
-      "倒置法：語順を通常と入れ替えて印象を強める表現。"
+      "対句：対応する形の表現を並べる。",
+      "反語：疑問形で反対の意味を強く主張する。",
+      "擬音語：「ザーザー」「ドンドン」など音を表す語。",
+      "倒置法：通常の語順を入れ替えて強調する。"
     ],
-    "memoryTip": "「誰が信じるだろうか」→「誰も信じない」のように考える。"
+    "memoryTip": "疑問形なのに答えを求めていないときは反語を疑う。"
   },
   {
     "id": "q056",
@@ -844,7 +1047,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「個人的な感情を交えず、事実に即して見るさま」です。"
+    "explanation": "客観的とは、自分の感情や好みに偏らず、事実や根拠に基づいて見ること。",
+    "choiceNotes": [
+      "事実に即して見る＝客観的。",
+      "細部を無視する意味ではない。",
+      "自分の好み中心は主観的。",
+      "将来を明るく考えるのは楽観的。"
+    ],
+    "memoryTip": "客観⇔主観を対で覚える。"
   },
   {
     "id": "q057",
@@ -859,7 +1069,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「具体的」です。"
+    "explanation": "抽象的の反対は具体的。抽象は共通点をまとめ、具体は実際の例や内容をはっきり示す。",
+    "choiceNotes": [
+      "具体的が反対語。",
+      "一般的は反対語ではない。",
+      "間接的も別の対立軸。",
+      "消極的も別の意味。"
+    ],
+    "memoryTip": "抽象⇔具体。"
   },
   {
     "id": "q058",
@@ -874,7 +1091,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「偶然」です。"
+    "explanation": "必然は「そうなることが避けられないこと」。反対は偶然。",
+    "choiceNotes": [
+      "当然は必然に近い。",
+      "自然は反対語ではない。",
+      "突然は時間的な急さ。",
+      "偶然＝たまたま起こること。"
+    ],
+    "memoryTip": "必然⇔偶然。"
   },
   {
     "id": "q059",
@@ -889,7 +1113,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「短く要点がまとまっていること」です。"
+    "explanation": "簡潔とは、短く、しかも要点がよくまとまっていること。",
+    "choiceNotes": [
+      "曖昧という意味ではない。",
+      "感情的という意味ではない。",
+      "長いことの反対。",
+      "短く要点がまとまる＝簡潔。"
+    ],
+    "memoryTip": "「簡潔に述べよ」＝短く、要点を落とさず。"
   },
   {
     "id": "q060",
@@ -904,7 +1135,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「文章を何度も練り直すこと」です。"
+    "explanation": "推敲とは、よりよい文章になるよう、言葉や表現を何度も考え直して直すこと。",
+    "choiceNotes": [
+      "資料集めそのものではない。",
+      "文章を練り直す＝推敲。",
+      "音読だけを指す語ではない。",
+      "暗記する意味ではない。"
+    ],
+    "memoryTip": "作文のあとに語句や文を直す作業＝推敲。"
   },
   {
     "id": "q061",
@@ -919,7 +1157,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「5」です。"
+    "explanation": "正負の数の加法。(-3)+8 = 8-3 = 5。符号が違うときは絶対値の差を求め、大きい方の符号を付ける。"
   },
   {
     "id": "q062",
@@ -934,7 +1172,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「11」です。"
+    "explanation": "7-(-4) = 7+4 = 11。負の数を引くことは、その正の数を足すことと同じ。"
   },
   {
     "id": "q063",
@@ -949,7 +1187,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「-24」です。"
+    "explanation": "(-6)×4 = -24。負×正は負、6×4=24。"
   },
   {
     "id": "q064",
@@ -964,7 +1202,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "(-20)÷(-5) = 4。負÷負は正、20÷5=4。"
   },
   {
     "id": "q065",
@@ -979,7 +1217,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「5/4」です。"
+    "explanation": "3/4 + 1/2 = 3/4 + 2/4 = 5/4。分母を4にそろえてから分子を足す。"
   },
   {
     "id": "q066",
@@ -994,7 +1232,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「1/2」です。"
+    "explanation": "5/6 - 1/3 = 5/6 - 2/6 = 3/6 = 1/2。通分して最後に約分する。"
   },
   {
     "id": "q067",
@@ -1009,7 +1247,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「32」です。"
+    "explanation": "2³×2² = 2^(3+2) = 2⁵ = 32。同じ底の累乗の積では指数を足す。"
   },
   {
     "id": "q068",
@@ -1024,7 +1262,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「7」です。"
+    "explanation": "√49は「2乗すると49になる正の数」なので7。√49=7。±7は方程式 x²=49 の解。",
+    "memoryTip": "√a は0以上の値。±が付くのは「x²=aの解」を求めるとき。"
   },
   {
     "id": "q069",
@@ -1039,7 +1278,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「2√3」です。"
+    "explanation": "√12 = √(4×3) = √4×√3 = 2√3。平方数4を根号の外に出す。",
+    "memoryTip": "√の中から 4,9,16,25… の平方数を探す。"
   },
   {
     "id": "q070",
@@ -1054,7 +1294,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「x²-9」です。"
+    "explanation": "(x+3)(x-3)=x²-3x+3x-9=x²-9。「(a+b)(a-b)=a²-b²」の公式。"
   },
   {
     "id": "q071",
@@ -1069,7 +1309,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「x²+4x+4」です。"
+    "explanation": "(x+2)²=(x+2)(x+2)=x²+2x+2x+4=x²+4x+4。"
   },
   {
     "id": "q072",
@@ -1084,7 +1324,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「(x+2)(x+3)」です。"
+    "explanation": "x²+5x+6。積が6、和が5になる2数は2と3。よって (x+2)(x+3)。"
   },
   {
     "id": "q073",
@@ -1099,7 +1339,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「5a-4」です。"
+    "explanation": "2a+3a-4=(2+3)a-4=5a-4。同じ文字・同じ次数の項だけをまとめる。"
   },
   {
     "id": "q074",
@@ -1114,7 +1354,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「5x-6」です。"
+    "explanation": "3(x-2)+2x=3x-6+2x=5x-6。まず分配法則でかっこを外す。"
   },
   {
     "id": "q075",
@@ -1129,7 +1369,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「1/4」です。"
+    "explanation": "0.25=25/100=1/4。小数第2位までなら100分の整数にして約分。"
   },
   {
     "id": "q076",
@@ -1144,7 +1384,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「3」です。"
+    "explanation": "2x=6\nx=6÷2\nx=3。両辺をxの係数2で割る。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q077",
@@ -1159,7 +1400,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "3x=12\nx=12÷3\nx=4。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q078",
@@ -1174,7 +1416,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "5x=20\nx=20÷5\nx=4。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q079",
@@ -1189,7 +1432,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「-2」です。"
+    "explanation": "4x=-8\nx=-8÷4\nx=-2。正の数で割っても負の符号はそのまま。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q080",
@@ -1204,7 +1448,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「3」です。"
+    "explanation": "7x=21\nx=21÷7\nx=3。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q081",
@@ -1219,7 +1464,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「7」です。"
+    "explanation": "x+5=12\nx=12-5\nx=7。+5を右辺へ移項すると-5になる。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q082",
@@ -1234,7 +1480,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「5」です。"
+    "explanation": "3x-4=11\n3x=11+4\n3x=15\nx=5。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q083",
@@ -1249,7 +1496,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "2(x+3)=14\nx+3=7\nx=4。最初に両辺を2で割ると計算しやすい。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q084",
@@ -1264,7 +1512,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "5x+2=2x+14\n5x-2x=14-2\n3x=12\nx=4。xの項を左、数字を右に集める。",
+    "choiceNotes": [
+      "x=6：移項後の計算を確認しよう。",
+      "x=12：3x=12の段階で止めない。",
+      "x=4：3x=12の両辺を3で割る。",
+      "x=3：12÷3を正しく計算する。"
+    ],
+    "memoryTip": "方程式は「文字を片側、数を反対側」に集めて整理する。"
   },
   {
     "id": "q085",
@@ -1279,7 +1534,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「9」です。"
+    "explanation": "x/3+2=5\nx/3=3\nx=9。+2を移項し、最後に両辺を3倍する。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q086",
@@ -1294,7 +1550,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "x+y=7\nx-y=1\n2式を足すと 2x=8\nx=4。yと-yが消えるので加減法が使える。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q087",
@@ -1309,7 +1566,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「3」です。"
+    "explanation": "2x+y=8\nx-y=1\n2式を足すと 3x=9\nx=3。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q088",
@@ -1324,7 +1582,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「7」です。"
+    "explanation": "y=2x+1 に x=3 を代入。\ny=2×3+1=6+1=7。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q089",
@@ -1339,7 +1598,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「-2」です。"
+    "explanation": "y=-x+4 に x=6 を代入。\ny=-6+4=-2。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q090",
@@ -1354,7 +1614,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「5」です。"
+    "explanation": "y=3x、y=15なので 15=3x。\nx=15÷3=5。",
+    "memoryTip": "式を1行ずつ変形して、どこで何をしたか確認する。"
   },
   {
     "id": "q091",
@@ -1369,7 +1630,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "比例は y=ax の形で、aが比例定数。y=4x では a=4。"
   },
   {
     "id": "q092",
@@ -1384,7 +1645,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "y=12/x に x=3 を代入。y=12÷3=4。反比例では x×y が一定になる。"
   },
   {
     "id": "q093",
@@ -1399,7 +1660,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「2」です。"
+    "explanation": "一次関数 y=ax+b の a が傾き。y=2x-5 では傾きは2。"
   },
   {
     "id": "q094",
@@ -1414,7 +1675,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "一次関数 y=ax+b の b が切片。y=-3x+4 では切片は4。"
   },
   {
     "id": "q095",
@@ -1429,7 +1690,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「2」です。"
+    "explanation": "平行な2直線は傾きが等しい。y=2x+1 の傾きは2なので、平行な直線も傾き2。"
   },
   {
     "id": "q096",
@@ -1444,7 +1705,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「180°」です。"
+    "explanation": "三角形の内角の和は180°。どんな形の三角形でも同じ。"
   },
   {
     "id": "q097",
@@ -1459,7 +1720,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「360°」です。"
+    "explanation": "四角形は対角線1本で三角形2つに分けられる。180°×2=360°。"
   },
   {
     "id": "q098",
@@ -1474,7 +1735,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「720°」です。"
+    "explanation": "n角形の内角の和=(n-2)×180°。正六角形なら(6-2)×180°=720°。",
+    "memoryTip": "多角形の内角の和=(n-2)×180°。"
   },
   {
     "id": "q099",
@@ -1489,7 +1751,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「1/2」です。"
+    "explanation": "同じ弧に対する円周角は、中心角の1/2。中心角=円周角×2。"
   },
   {
     "id": "q100",
@@ -1504,7 +1766,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「三平方の定理」です。"
+    "explanation": "直角三角形では、斜辺をc、他の2辺をa,bとすると a²+b²=c²（三平方の定理）。"
   },
   {
     "id": "q101",
@@ -1519,7 +1781,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「12cm²」です。"
+    "explanation": "三角形の面積=底辺×高さ÷2。6×4÷2=12cm²。"
   },
   {
     "id": "q102",
@@ -1534,7 +1796,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「9πcm²」です。"
+    "explanation": "円の面積=πr²。r=3なので π×3²=9πcm²。"
   },
   {
     "id": "q103",
@@ -1549,7 +1811,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「10πcm」です。"
+    "explanation": "円周=2πr。r=5なので 2×π×5=10πcm。"
   },
   {
     "id": "q104",
@@ -1564,7 +1826,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「4√2cm」です。"
+    "explanation": "正方形の対角線をdとすると、三平方より d²=4²+4²=32。d=√32=4√2cm。"
   },
   {
     "id": "q105",
@@ -1579,7 +1841,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「直角三角形」です。"
+    "explanation": "3²+4²=9+16=25=5²。三平方の定理が成り立つので直角三角形。"
   },
   {
     "id": "q106",
@@ -1594,7 +1856,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「4:9」です。"
+    "explanation": "相似比が2:3なら面積比は2²:3²=4:9。面積比は相似比の2乗。",
+    "memoryTip": "長さ→1乗、面積→2乗、体積→3乗。"
   },
   {
     "id": "q107",
@@ -1609,7 +1872,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「8:27」です。"
+    "explanation": "相似比が2:3なら体積比は2³:3³=8:27。体積比は相似比の3乗。",
+    "memoryTip": "長さ→1乗、面積→2乗、体積→3乗。"
   },
   {
     "id": "q108",
@@ -1624,7 +1888,15 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「等しい」です。"
+    "explanation": "2本の平行線を1本の直線が横切るとき、錯角は等しい。図では「Z」の形で向かい合う角を探す。",
+    "choiceNotes": [
+      "和が180°：同側内角では成り立つが、錯角そのものの関係ではない。",
+      "等しい：平行線にできる錯角の性質。",
+      "常に90°：直角になるとは限らない。",
+      "2倍：錯角にこの関係はない。"
+    ],
+    "memoryTip": "平行線＋Zの形＝錯角。",
+    "diagram": "alternateAngles"
   },
   {
     "id": "q109",
@@ -1639,7 +1911,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「等しい」です。"
+    "explanation": "二等辺三角形では、等しい2辺に向かい合う角（底角）が等しい。"
   },
   {
     "id": "q110",
@@ -1654,7 +1926,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「60°」です。"
+    "explanation": "正三角形は3つの角が等しく、内角の和は180°。180°÷3=60°。"
   },
   {
     "id": "q111",
@@ -1669,7 +1941,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "データを小さい順に並べた中央の値が中央値。2,4,4,6,9 の中央は4。",
+    "memoryTip": "中央値＝真ん中、最頻値＝いちばん多い、平均＝合計÷個数。"
   },
   {
     "id": "q112",
@@ -1684,7 +1957,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「4」です。"
+    "explanation": "最も多く現れる値が最頻値。2,4,4,6,9 では4が2回で最も多い。"
   },
   {
     "id": "q113",
@@ -1699,7 +1972,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「5」です。"
+    "explanation": "平均=(合計)÷(個数)。(2+4+6+8)÷4=20÷4=5。"
   },
   {
     "id": "q114",
@@ -1714,7 +1987,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「1/2」です。"
+    "explanation": "コインの表・裏は同様に確からしい2通り。表は1通りなので1/2。"
   },
   {
     "id": "q115",
@@ -1729,7 +2002,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「1/2」です。"
+    "explanation": "さいころの偶数は2,4,6の3通り。全6通りなので3/6=1/2。"
   },
   {
     "id": "q116",
@@ -1744,7 +2017,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「1/6」です。"
+    "explanation": "さいころの目は1〜6の6通りで、6は1通り。確率=1/6。"
   },
   {
     "id": "q117",
@@ -1759,7 +2032,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「1本」です。"
+    "explanation": "異なる2点が決まると、その2点を通る直線はただ1本に決まる。"
   },
   {
     "id": "q118",
@@ -1774,7 +2047,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「2倍」です。"
+    "explanation": "直径は円の中心を通り、半径2本分の長さ。直径=2×半径。"
   },
   {
     "id": "q119",
@@ -1789,7 +2062,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「底面積×高さ」です。"
+    "explanation": "柱体の体積=底面積×高さ。どの高さでも同じ形の断面が続くイメージ。",
+    "memoryTip": "柱はそのまま掛ける。錐はさらに÷3。"
   },
   {
     "id": "q120",
@@ -1804,7 +2078,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「1/3」です。"
+    "explanation": "錐体の体積=底面積×高さ×1/3。同じ底面積・高さの柱体の1/3。",
+    "memoryTip": "柱はそのまま掛ける。錐はさらに÷3。"
   },
   {
     "id": "q121",
@@ -1819,7 +2094,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「必要な」です。"
+    "explanation": "necessary は「必要な」。It is necessary to study. = 勉強することは必要です。"
   },
   {
     "id": "q122",
@@ -1834,7 +2109,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「環境」です。"
+    "explanation": "environment は「環境」。the natural environment = 自然環境。"
   },
   {
     "id": "q123",
@@ -1849,7 +2124,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「改善する」です。"
+    "explanation": "improve は「改善する・上達する」。improve my English = 英語力を伸ばす。"
   },
   {
     "id": "q124",
@@ -1864,7 +2139,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「決める」です。"
+    "explanation": "decide は「決める」。decide to do = 〜することを決める。"
   },
   {
     "id": "q125",
@@ -1879,7 +2154,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「増える・増やす」です。"
+    "explanation": "increase は「増える／増やす」。The number increased. = 数が増えた。"
   },
   {
     "id": "q126",
@@ -1894,7 +2169,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「提供する」です。"
+    "explanation": "provide は「提供する」。provide A with B / provide B for A の形もよく出る。"
   },
   {
     "id": "q127",
@@ -1909,7 +2184,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「外国の」です。"
+    "explanation": "foreign は「外国の」。a foreign country = 外国。"
   },
   {
     "id": "q128",
@@ -1924,7 +2199,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「文化」です。"
+    "explanation": "culture は「文化」。Japanese culture = 日本文化。"
   },
   {
     "id": "q129",
@@ -1939,7 +2214,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「経験」です。"
+    "explanation": "experience は「経験」。名詞でも動詞でも使う。have a good experience = よい経験をする。"
   },
   {
     "id": "q130",
@@ -1954,7 +2229,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「特に」です。"
+    "explanation": "especially は「特に」。I like sports, especially soccer. = スポーツ、特にサッカーが好き。"
   },
   {
     "id": "q131",
@@ -1969,7 +2244,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「可能な」です。"
+    "explanation": "possible は「可能な」。if possible = 可能なら。"
   },
   {
     "id": "q132",
@@ -1984,7 +2259,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「その代わりに」です。"
+    "explanation": "instead は「その代わりに」。instead of A = Aの代わりに。"
   },
   {
     "id": "q133",
@@ -1999,7 +2274,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「〜の間に」です。"
+    "explanation": "during は「〜の間に」。during the summer = 夏の間に。後ろには名詞が来る。"
   },
   {
     "id": "q134",
@@ -2014,7 +2289,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「〜だけれども」です。"
+    "explanation": "although は「〜だけれども」。Although it was raining, we went out. = 雨だったが出かけた。"
   },
   {
     "id": "q135",
@@ -2029,7 +2304,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「おそらく」です。"
+    "explanation": "perhaps は「おそらく・たぶん」。perhaps と maybe は近い意味。"
   },
   {
     "id": "q136",
@@ -2044,14 +2319,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "be interested in ～ ＝「～に興味がある」。",
+    "explanation": "be interested in ～ = 「～に興味がある」。in の後ろは名詞または動名詞。",
     "choiceNotes": [
       "be afraid of ～：～を恐れている。",
       "be interested in ～：～に興味がある。",
       "be late for ～：～に遅れる。",
       "be famous for ～：～で有名だ。"
     ],
-    "memoryTip": "I am interested in music. ＝ 私は音楽に興味があります。"
+    "memoryTip": "be interested in + 名詞 / ～ing。"
   },
   {
     "id": "q137",
@@ -2066,14 +2341,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "be good at ～ ＝「～が得意だ」。at の後ろには名詞や動名詞（～ing）を置く。",
+    "explanation": "be good at ～ = 「～が得意だ」。at の後ろは名詞または動名詞。I am good at math. = 私は数学が得意です。",
     "choiceNotes": [
-      "wait for ～：～を待つ。",
+      "be afraid of ～：～を怖がる。",
       "be good at ～：～が得意だ。",
       "look for ～：～を探す。",
       "be similar to ～：～に似ている。"
     ],
-    "memoryTip": "I'm good at math. ＝ 私は数学が得意です。"
+    "memoryTip": "be good at + 名詞 / ～ing。例：She is good at cooking."
   },
   {
     "id": "q138",
@@ -2088,14 +2363,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "look forward to ～ ＝「～を楽しみに待つ」。to の後ろは名詞や ～ing。",
+    "explanation": "look forward to ～ = 「～を楽しみに待つ」。to は前置詞なので、動詞を続けるなら ～ing。",
     "choiceNotes": [
       "look into ～：～を調べる。",
       "look back on ～：～を振り返る。",
       "look forward to ～：～を楽しみに待つ。",
       "look down on ～：～を見下す。"
     ],
-    "memoryTip": "I look forward to seeing you. ＝ あなたに会うのを楽しみにしています。"
+    "memoryTip": "look forward to + 名詞 / ～ing。"
   },
   {
     "id": "q139",
@@ -2110,14 +2385,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "take care of ～ ＝「～の世話をする」。",
+    "explanation": "take care of ～ = 「～の世話をする／～に気をつける」。take care of my dog = 犬の世話をする。",
     "choiceNotes": [
       "take a picture of ～：～の写真を撮る。",
       "pick out ～：～を選び出す。",
       "use up ～：～を使い切る。",
       "take care of ～：～の世話をする。"
     ],
-    "memoryTip": "Take care of this dog. ＝ この犬の世話をして。"
+    "memoryTip": "take care of をひとかたまりで覚える。"
   },
   {
     "id": "q140",
@@ -2132,7 +2407,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "as soon as ～ ＝「～するとすぐに」。",
+    "explanation": "as soon as ～ = 「～するとすぐに」。I called him as soon as I got home. = 帰宅するとすぐ彼に電話した。",
     "choiceNotes": [
       "before ～：～する前に。",
       "as soon as ～：～するとすぐに。",
@@ -2154,14 +2429,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "in order to ＋ 動詞 ＝「～するために」。目的を表す。",
+    "explanation": "take 人 to 場所 = 「人を場所へ連れて行く」。Please take me to the station. = 私を駅まで連れて行ってください。",
     "choiceNotes": [
       "in order to ～：～するために。",
       "despite ～：～にもかかわらず。",
       "compared with ～：～と比べて。",
       "instead of ～：～の代わりに。"
     ],
-    "memoryTip": "I study hard in order to pass. ＝ 合格するために一生懸命勉強する。"
+    "memoryTip": "take + 人 + to + 場所。「人を～へ連れて行く」。"
   },
   {
     "id": "q142",
@@ -2176,7 +2451,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "for example ＝「例えば」。具体例を挙げるときに使う。",
+    "explanation": "look for ～ = 「～を探す」。I am looking for my key. = 鍵を探しています。",
     "choiceNotes": [
       "first：最初に。",
       "as a result：その結果。",
@@ -2198,7 +2473,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "at first ＝「最初は」。あとで状況が変わる文脈でよく使う。",
+    "explanation": "be famous for ～ = 「～で有名だ」。Niigata is famous for rice. = 新潟は米で有名です。",
     "choiceNotes": [
       "at first：最初は。",
       "finally：ついに。",
@@ -2220,7 +2495,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "each other ＝「お互いに」。2人以上が互いに行う動作を表す。",
+    "explanation": "be afraid of ～ = 「～を怖がる」。I am afraid of dogs. = 私は犬が怖い。",
     "choiceNotes": [
       "each other：お互いに。",
       "one by one：一人ずつ／一つずつ。",
@@ -2242,7 +2517,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "one of the ＋ 複数名詞 ＝「～のうちの1つ（1人）」。",
+    "explanation": "be different from ～ = 「～と異なる」。A is different from B = AはBと違う。",
     "choiceNotes": [
       "half of ～：～の半分。",
       "the same as ～：～と同じ。",
@@ -2264,7 +2539,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「play」です。"
+    "explanation": "want to + 動詞の原形 = 「〜したい」。I want to play tennis. = テニスをしたい。"
   },
   {
     "id": "q147",
@@ -2279,7 +2554,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「goes」です。"
+    "explanation": "have to + 動詞の原形 = 「〜しなければならない」。You have to study. = 勉強しなければならない。"
   },
   {
     "id": "q148",
@@ -2294,7 +2569,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「are eating」です。"
+    "explanation": "used to + 動詞の原形 = 「以前は〜したものだ」。今はそうではない、という含みがある。"
   },
   {
     "id": "q149",
@@ -2309,7 +2584,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「visited」です。"
+    "explanation": "be able to + 動詞の原形 = 「〜することができる」。can と近い意味。"
   },
   {
     "id": "q150",
@@ -2324,7 +2599,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「seen」です。"
+    "explanation": "It takes 人 時間 to do = 「人が〜するのに時間がかかる」。It takes me 20 minutes to walk to school. = 学校まで歩いて20分かかる。",
+    "memoryTip": "see-saw-seen の変化をセットで。"
   },
   {
     "id": "q151",
@@ -2339,7 +2615,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「is read」です。"
+    "explanation": "tell 人 to do = 「人に〜するよう言う」。My mother told me to study. = 母は私に勉強するよう言った。",
+    "memoryTip": "受け身＝be + 過去分詞。"
   },
   {
     "id": "q152",
@@ -2354,7 +2631,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「rains」です。"
+    "explanation": "ask 人 to do = 「人に〜するよう頼む」。I asked him to help me. = 彼に手伝ってくれるよう頼んだ。"
   },
   {
     "id": "q153",
@@ -2369,7 +2646,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「to be」です。"
+    "explanation": "make 人 形容詞 = 「人を〜な状態にする」。The news made me happy. = その知らせで私はうれしくなった。"
   },
   {
     "id": "q154",
@@ -2384,7 +2661,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「listening to」です。"
+    "explanation": "too ... to do = 「あまりに…なので〜できない」。too tired to walk = 疲れすぎて歩けない。"
   },
   {
     "id": "q155",
@@ -2399,7 +2676,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「who」です。"
+    "explanation": "enough to do = 「〜するのに十分…」。old enough to drive = 運転できる年齢に達している。"
   },
   {
     "id": "q156",
@@ -2414,7 +2691,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「that」です。"
+    "explanation": "現在完了 have/has + 過去分詞。経験・完了・継続などを表す。have been to ～ = ～へ行ったことがある。"
   },
   {
     "id": "q157",
@@ -2429,7 +2706,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「higher」です。"
+    "explanation": "受け身は be動詞 + 過去分詞。「〜される」。English is spoken ... = 英語は話されている。"
   },
   {
     "id": "q158",
@@ -2444,7 +2721,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「tallest」です。"
+    "explanation": "比較級 + than = 「〜より…」。bigger than, more important than など。"
   },
   {
     "id": "q159",
@@ -2459,7 +2736,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「must」です。"
+    "explanation": "the + 最上級 = 「最も〜」。the tallest, the most interesting など。"
   },
   {
     "id": "q160",
@@ -2474,7 +2751,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「Have」です。"
+    "explanation": "不定詞 to + 動詞の原形は、目的「〜するために」などを表す。I went to the library to study. = 勉強するため図書館へ行った。"
   },
   {
     "id": "q161",
@@ -2489,7 +2766,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「lived」です。"
+    "explanation": "動名詞は動詞+ingを名詞のように使う形。Playing soccer is fun. = サッカーをすることは楽しい。"
   },
   {
     "id": "q162",
@@ -2504,7 +2781,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「so」です。"
+    "explanation": "関係代名詞 who は先行詞が人のときに使う。the boy who is running = 走っている少年。"
   },
   {
     "id": "q163",
@@ -2519,7 +2796,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「and」です。"
+    "explanation": "関係代名詞 which は先行詞が物・動物のときに使う。the book which I bought = 私が買った本。"
   },
   {
     "id": "q164",
@@ -2534,7 +2811,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「are」です。"
+    "explanation": "what to do = 「何をすべきか」。疑問詞 + to不定詞の形。"
   },
   {
     "id": "q165",
@@ -2549,7 +2826,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「is」です。"
+    "explanation": "現在分詞 playing ... が girl を後ろから説明している。「ピアノを弾いている女の子」。"
   },
   {
     "id": "q166",
@@ -2564,7 +2841,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「図書館へ行くのはどう？」です。"
+    "explanation": "How about ～? = 「～はどうですか」。提案では How about + 名詞 / ～ing をよく使う。"
   },
   {
     "id": "q167",
@@ -2579,7 +2856,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「Sure.」です。"
+    "explanation": "Would you like to ～? = 「～しませんか／～したいですか」。丁寧な勧誘。"
   },
   {
     "id": "q168",
@@ -2594,7 +2871,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「この考えをどう思いますか」です。"
+    "explanation": "Shall I ～? = 「私が～しましょうか」。自分が何かすることを申し出る表現。"
   },
   {
     "id": "q169",
@@ -2609,7 +2886,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「相手の悪い知らせに同情するとき」です。"
+    "explanation": "I'm sorry to hear that. は、相手の病気や失敗など悪い知らせを聞いて同情するときの表現。"
   },
   {
     "id": "q170",
@@ -2624,7 +2901,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「休憩しませんか」です。"
+    "explanation": "Why don’t we ～? = 「～しませんか」。直訳は「なぜ私たちは～しないの？」だが、提案の定番表現。"
   },
   {
     "id": "q171",
@@ -2639,7 +2916,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「学校まで歩いて20分かかる」です。"
+    "explanation": "It takes me 20 minutes to walk to school. は「学校まで歩いて20分かかる」。It takes 人 時間 to do の形。",
+    "choiceNotes": [
+      "「20分後に出る」ではない。takesはここでは時間が「かかる」。",
+      "「学校を20分歩く」ではなく、to school＝学校まで。",
+      "wait（待つ）は文中にない。",
+      "学校まで歩いて20分かかる。"
+    ],
+    "memoryTip": "It takes 人 時間 to ～ をひとかたまりで覚える。"
   },
   {
     "id": "q172",
@@ -2654,7 +2938,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「月曜日からずっと忙しい」です。"
+    "explanation": "have been busy since Monday は、月曜日から今までずっと忙しい、という現在完了の継続。since = ～以来。"
   },
   {
     "id": "q173",
@@ -2669,7 +2953,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「家に帰ったほうがよい」です。"
+    "explanation": "had better + 動詞の原形 = 「～したほうがよい」。強めの助言。"
   },
   {
     "id": "q174",
@@ -2684,7 +2968,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「あなたのペンを使ってもいいですか」です。"
+    "explanation": "May I ～? = 「～してもよいですか」。丁寧に許可を求める表現。"
   },
   {
     "id": "q175",
@@ -2699,7 +2983,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「この単語はどういう意味ですか」です。"
+    "explanation": "What does this word mean? = 「この単語はどういう意味ですか」。mean = 意味する。"
   },
   {
     "id": "q176",
@@ -2714,7 +2998,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「何をすべきかわからない」です。"
+    "explanation": "I don’t know what to do. = 「何をすべきかわからない」。what to do は疑問詞+to不定詞。"
   },
   {
     "id": "q177",
@@ -2729,7 +3013,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「その知らせで私はうれしくなった」です。"
+    "explanation": "make 人 形容詞 = 「人を～な状態にする」。The news made me happy. = その知らせで私はうれしくなった。"
   },
   {
     "id": "q178",
@@ -2744,7 +3028,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「母は私に勉強するよう言った」です。"
+    "explanation": "tell 人 to do = 「人に～するよう言う」。told は tell の過去形。"
   },
   {
     "id": "q179",
@@ -2759,7 +3043,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「英語は多くの国で話されている」です。"
+    "explanation": "be動詞 + 過去分詞で受け身。「英語が話す」ではなく「英語は話されている」。"
   },
   {
     "id": "q180",
@@ -2774,7 +3058,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「ピアノを弾いている女の子はエミです」です。"
+    "explanation": "playing the piano が The girl を後ろから修飾。「ピアノを弾いている女の子はエミです」。"
   },
   {
     "id": "q181",
@@ -2789,7 +3073,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「光合成」です。"
+    "explanation": "光合成は、植物が光のエネルギーを使い、二酸化炭素と水からデンプンなどの養分をつくる働き。酸素も発生する。"
   },
   {
     "id": "q182",
@@ -2804,7 +3088,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「気孔」です。"
+    "explanation": "気孔は葉の表皮にある小さなすき間で、二酸化炭素・酸素・水蒸気などの出入り口になる。"
   },
   {
     "id": "q183",
@@ -2819,7 +3103,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「道管」です。"
+    "explanation": "道管は、根から吸収した水や無機養分を主に上向きに運ぶ。師管は葉でつくられた養分を運ぶ。",
+    "memoryTip": "道管＝水・無機養分／師管＝養分。"
   },
   {
     "id": "q184",
@@ -2834,14 +3119,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "葉でつくられた養分は「師管」を通って、根や成長している部分へ運ばれる。",
+    "explanation": "師管は、葉でつくられた養分を植物の各部へ運ぶ。道管は水・無機養分を根から運ぶ。",
     "choiceNotes": [
-      "気管：人などの呼吸器で、空気の通り道。",
+      "気管：動物の呼吸器で空気が通る管。",
       "師管：葉でつくられた養分を運ぶ。",
-      "道管：根から吸収した水や無機養分を運ぶ。",
+      "道管：根からの水・無機養分を運ぶ。",
       "血管：動物の血液が通る管。"
     ],
-    "memoryTip": "師管＝養分／道管＝水 と対にして覚えよう。"
+    "memoryTip": "師管＝養分、道管＝水・無機養分。対で覚える。"
   },
   {
     "id": "q185",
@@ -2856,7 +3141,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「遺伝情報を等しく分けるため」です。"
+    "explanation": "細胞分裂の前に染色体を複製しておくことで、分かれた2つの細胞に同じ遺伝情報を等しく渡せる。"
   },
   {
     "id": "q186",
@@ -2871,7 +3156,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「赤血球」です。"
+    "explanation": "赤血球にはヘモグロビンがあり、酸素と結びついて全身へ運ぶ。白血球は病原体への防御、血小板は血液凝固。"
   },
   {
     "id": "q187",
@@ -2886,7 +3171,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「心臓」です。"
+    "explanation": "心臓はポンプのように収縮・拡張して血液を全身へ送り出す。肺は気体交換、腎臓は不要物の排出に関わる。"
   },
   {
     "id": "q188",
@@ -2901,7 +3186,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「柔毛」です。"
+    "explanation": "小腸の内側には柔毛（じゅうもう）が多数あり、表面積を大きくして養分を効率よく吸収する。"
   },
   {
     "id": "q189",
@@ -2916,7 +3201,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「感覚神経」です。"
+    "explanation": "感覚神経は、皮膚や感覚器が受けた刺激を中枢神経へ伝える。運動神経は中枢から筋肉へ命令を伝える。"
   },
   {
     "id": "q190",
@@ -2931,7 +3216,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「DNA」です。"
+    "explanation": "DNAは遺伝情報を担う物質で、染色体に含まれている。遺伝子はDNAの一部として考える。"
   },
   {
     "id": "q191",
@@ -2946,7 +3231,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「水素と酸素」です。"
+    "explanation": "水を電気分解すると水素と酸素が発生する。体積比は水素:酸素=2:1。"
   },
   {
     "id": "q192",
@@ -2961,7 +3246,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「燃焼」です。"
+    "explanation": "燃焼は、物質が酸素と激しく反応し、光や熱を出す酸化反応。"
   },
   {
     "id": "q193",
@@ -2976,7 +3261,8 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「中和」です。"
+    "explanation": "中和は、酸の水素イオンとアルカリの水酸化物イオンが反応して水になる反応。酸性・アルカリ性が互いに弱まる。",
+    "memoryTip": "酸＋アルカリ→中和。"
   },
   {
     "id": "q194",
@@ -2991,7 +3277,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「中性」です。"
+    "explanation": "pHは水溶液の酸性・アルカリ性の程度を表す指標。一般に pH7=中性、7より小さい=酸性、7より大きい=アルカリ性。0側ほど酸性が強く、14側ほどアルカリ性が強い。",
+    "choiceNotes": [
+      "アルカリ性：一般にpH7より大きい。",
+      "「塩基性」は広い化学用語。中学の水溶液ではアルカリ性と整理。",
+      "酸性：一般にpH7より小さい。",
+      "中性：pH7。"
+    ],
+    "memoryTip": "pHは「7が真ん中」。7未満＝酸性、7超＝アルカリ性。"
   },
   {
     "id": "q195",
@@ -3006,7 +3299,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「水素イオン」です。"
+    "explanation": "塩酸 HCl は水中で水素イオンH⁺と塩化物イオンCl⁻に分かれる。陽イオンはH⁺。"
   },
   {
     "id": "q196",
@@ -3021,7 +3314,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「水酸化物イオン」です。"
+    "explanation": "水酸化ナトリウム NaOH は水中でNa⁺とOH⁻に分かれる。陰イオンは水酸化物イオンOH⁻。"
   },
   {
     "id": "q197",
@@ -3036,7 +3329,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「陽イオン」です。"
+    "explanation": "原子が電子（－）を失うと、正電荷が相対的に多くなり陽イオンになる。"
   },
   {
     "id": "q198",
@@ -3051,7 +3344,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「陰イオン」です。"
+    "explanation": "原子が電子（－）を受け取ると、負電荷が多くなり陰イオンになる。"
   },
   {
     "id": "q199",
@@ -3066,7 +3359,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「質量保存の法則」です。"
+    "explanation": "化学変化では原子の組み合わせは変わっても原子そのものの数は保存されるため、反応前後の全体の質量は変わらない。これが質量保存の法則。"
   },
   {
     "id": "q200",
@@ -3081,7 +3374,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「二酸化炭素」です。"
+    "explanation": "炭酸水素ナトリウムを加熱すると、炭酸ナトリウム・二酸化炭素・水ができる。発生する気体の一つがCO₂。"
   },
   {
     "id": "q201",
@@ -3096,7 +3389,13 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「N（ニュートン）」です。"
+    "explanation": "力の大きさの単位はN（ニュートン）。質量の単位g・kgとは区別する。",
+    "choiceNotes": [
+      "N：力。",
+      "W：仕事率・電力。",
+      "V：電圧。",
+      "Pa：圧力。"
+    ]
   },
   {
     "id": "q202",
@@ -3111,7 +3410,13 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「A（アンペア）」です。"
+    "explanation": "電流の単位はA（アンペア）。電流は回路を流れる電気の量の流れを表す。",
+    "choiceNotes": [
+      "V：電圧。",
+      "J：仕事・エネルギー。",
+      "A：電流。",
+      "Ω：抵抗。"
+    ]
   },
   {
     "id": "q203",
@@ -3126,7 +3431,13 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「V（ボルト）」です。"
+    "explanation": "電圧の単位はV（ボルト）。電流を流そうとするはたらきの大きさ。",
+    "choiceNotes": [
+      "W：仕事率・電力。",
+      "V：電圧。",
+      "N：力。",
+      "A：電流。"
+    ]
   },
   {
     "id": "q204",
@@ -3141,7 +3452,13 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「Ω（オーム）」です。"
+    "explanation": "電気抵抗の単位はΩ（オーム）。抵抗が大きいほど同じ電圧では電流が流れにくい。",
+    "choiceNotes": [
+      "Hz：振動数。",
+      "V：電圧。",
+      "A：電流。",
+      "Ω：抵抗。"
+    ]
   },
   {
     "id": "q205",
@@ -3156,7 +3473,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「オームの法則」です。"
+    "explanation": "オームの法則は V=IR。電圧V=電流I×抵抗R。変形すると I=V/R、R=V/I。",
+    "memoryTip": "V＝I×R を基本形で覚える。"
   },
   {
     "id": "q206",
@@ -3171,7 +3489,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「等しい」です。"
+    "explanation": "直列回路では電流の通り道が1本なので、回路のどの場所でも電流の大きさは等しい。"
   },
   {
     "id": "q207",
@@ -3186,7 +3504,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「等しい」です。"
+    "explanation": "並列回路では各枝が同じ2点につながるので、各枝にかかる電圧は等しい。電流は枝に分かれる。"
   },
   {
     "id": "q208",
@@ -3201,7 +3519,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「W（ワット）」です。"
+    "explanation": "仕事率は「1秒あたりの仕事」の大きさ。単位はW（ワット）。1W=1J/s。"
   },
   {
     "id": "q209",
@@ -3216,7 +3534,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「屈折」です。"
+    "explanation": "光が異なる物質の境界を斜めに通ると進む向きが変わる。この現象が屈折。"
   },
   {
     "id": "q210",
@@ -3231,7 +3549,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「実像」です。"
+    "explanation": "凸レンズで物体を焦点より外側に置くと、反対側にスクリーンへ映せる実像ができる。焦点内なら虚像。"
   },
   {
     "id": "q211",
@@ -3246,7 +3564,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「振動数」です。"
+    "explanation": "音の高さは振動数で決まる。1秒間の振動回数が多いほど高い音になる。"
   },
   {
     "id": "q212",
@@ -3261,7 +3579,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「振幅」です。"
+    "explanation": "音の大きさは主に振幅で決まる。振幅が大きいほど大きな音になる。"
   },
   {
     "id": "q213",
@@ -3276,7 +3594,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「慣性」です。"
+    "explanation": "慣性は、物体が静止または等速直線運動の状態を保とうとする性質。急ブレーキで体が前に動くのも例。"
   },
   {
     "id": "q214",
@@ -3291,7 +3609,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「等しい」です。"
+    "explanation": "作用・反作用の2力は、大きさが等しく向きが反対で、別々の物体にはたらく。"
   },
   {
     "id": "q215",
@@ -3306,7 +3624,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「等速直線運動」です。"
+    "explanation": "速さが一定で、一直線上を進む運動が等速直線運動。速さも向きも変わらない。"
   },
   {
     "id": "q216",
@@ -3321,7 +3639,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「初期微動」です。"
+    "explanation": "地震が起こると先に小さな揺れ（初期微動）、その後に大きな揺れ（主要動）が来る。"
   },
   {
     "id": "q217",
@@ -3336,7 +3654,8 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「P波」です。"
+    "explanation": "P波は速く伝わり、初期微動を起こす。S波は遅く、主要動を起こす。P=Primary（先に来る）で覚える。",
+    "memoryTip": "P波＝速い＝初期微動／S波＝遅い＝主要動。"
   },
   {
     "id": "q218",
@@ -3351,7 +3670,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「S波」です。"
+    "explanation": "S波はP波より遅く伝わり、主要動を起こす代表的な波。"
   },
   {
     "id": "q219",
@@ -3366,7 +3685,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「震源」です。"
+    "explanation": "地下で実際に地震が発生した場所が震源。地表でその真上にある地点が震央。"
   },
   {
     "id": "q220",
@@ -3381,7 +3700,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「震央」です。"
+    "explanation": "震央は、震源の真上にあたる地表の地点。震源は地下。"
   },
   {
     "id": "q221",
@@ -3396,7 +3715,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「地震そのものの規模」です。"
+    "explanation": "マグニチュードは地震そのものの規模を表す。震度は各地点での揺れの強さ。",
+    "memoryTip": "M＝地震全体、震度＝場所ごとの揺れ。",
+    "choiceNotes": [
+      "地震そのものの規模＝マグニチュード。",
+      "震源の深さは距離。",
+      "津波の高さとは別。",
+      "地点ごとの揺れ＝震度。"
+    ]
   },
   {
     "id": "q222",
@@ -3411,7 +3737,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「ある地点での揺れの強さ」です。"
+    "explanation": "震度は「その場所でどれくらい揺れたか」。同じ地震でも場所によって震度は違う。"
   },
   {
     "id": "q223",
@@ -3426,7 +3752,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「上昇する」です。"
+    "explanation": "低気圧の中心付近では空気が集まり、上昇する。上昇気流で雲ができやすく、天気が崩れやすい。"
   },
   {
     "id": "q224",
@@ -3441,7 +3767,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「下降する」です。"
+    "explanation": "高気圧の中心付近では空気が下降する。下降気流では雲ができにくく、晴れやすい。"
   },
   {
     "id": "q225",
@@ -3456,7 +3782,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「温暖前線」です。"
+    "explanation": "温暖前線では暖気が寒気の上をゆるやかにはい上がる。広い範囲で比較的長く雨が降りやすい。"
   },
   {
     "id": "q226",
@@ -3471,7 +3797,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「寒冷前線」です。"
+    "explanation": "寒冷前線では寒気が暖気の下にもぐり込み、暖気を急に押し上げる。強い雨が短時間に降ることがある。"
   },
   {
     "id": "q227",
@@ -3486,7 +3812,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「月食」です。"
+    "explanation": "月食は、太陽―地球―月の順に並び、月が地球の影に入る現象。"
   },
   {
     "id": "q228",
@@ -3501,7 +3827,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「日食」です。"
+    "explanation": "日食は、太陽―月―地球の順に並び、月が太陽を隠す現象。"
   },
   {
     "id": "q229",
@@ -3516,7 +3842,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「昼夜の交代」です。"
+    "explanation": "地球の自転は約24時間で1回転し、昼と夜の交代の原因になる。"
   },
   {
     "id": "q230",
@@ -3531,7 +3857,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「季節の変化」です。"
+    "explanation": "地球の公転と約23.4°の地軸の傾きによって、季節による太陽高度や昼の長さの違いが生じる。"
   },
   {
     "id": "q231",
@@ -3546,7 +3872,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「質量÷体積」です。"
+    "explanation": "密度=質量÷体積。単位は g/cm³ など。例：質量20g、体積10cm³なら密度2g/cm³。"
   },
   {
     "id": "q232",
@@ -3561,7 +3887,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「力÷面積」です。"
+    "explanation": "圧力=力÷面積。同じ力なら、面積が小さいほど圧力は大きくなる。"
   },
   {
     "id": "q233",
@@ -3576,7 +3902,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「浮力」です。"
+    "explanation": "水中の物体が水から受ける上向きの力を浮力という。重力とは反対向き。"
   },
   {
     "id": "q234",
@@ -3591,7 +3917,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「フックの法則」です。"
+    "explanation": "フックの法則では、ばねののびは加えた力の大きさに比例する（弾性限界内）。"
   },
   {
     "id": "q235",
@@ -3606,7 +3932,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「小さくなる」です。"
+    "explanation": "温度が一定なら、一定量の気体で圧力が大きくなるほど体積は小さくなる。圧力と体積は反比例の関係。"
   },
   {
     "id": "q236",
@@ -3621,7 +3947,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「気化」です。"
+    "explanation": "液体から気体への状態変化を気化という。液面で起こる蒸発も気化の一種。"
   },
   {
     "id": "q237",
@@ -3636,7 +3962,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「凝縮」です。"
+    "explanation": "気体から液体への状態変化が凝縮。水蒸気が冷えて水滴になるのが例。"
   },
   {
     "id": "q238",
@@ -3651,7 +3977,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「融解」です。"
+    "explanation": "固体から液体への状態変化が融解。氷が水になるのが例。"
   },
   {
     "id": "q239",
@@ -3666,7 +3992,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「分解者」です。"
+    "explanation": "分解者は、死がいや排出物などの有機物を分解し、無機物へ戻す。菌類や細菌類など。"
   },
   {
     "id": "q240",
@@ -3681,7 +4007,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「植物などの生産者」です。"
+    "explanation": "食物連鎖の出発点は、光合成などで自ら有機物をつくる生産者（植物など）であることが多い。"
   },
   {
     "id": "q241",
@@ -3696,7 +4022,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「北海道」です。"
+    "explanation": "日本で最も面積が大きい都道府県は北海道。2位は岩手県。北海道は日本の国土面積の約2割を占める。"
   },
   {
     "id": "q242",
@@ -3711,7 +4037,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「信濃川」です。"
+    "explanation": "日本で最も長い川は信濃川。長野県から新潟県を流れ、日本海へ注ぐ。"
   },
   {
     "id": "q243",
@@ -3726,7 +4052,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「琵琶湖」です。"
+    "explanation": "日本最大の湖は滋賀県の琵琶湖。面積で国内最大。"
   },
   {
     "id": "q244",
@@ -3741,7 +4067,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「東経135度」です。"
+    "explanation": "日本の標準時子午線は東経135度。兵庫県明石市付近を通る。"
   },
   {
     "id": "q245",
@@ -3756,7 +4082,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「山地・丘陵地」です。"
+    "explanation": "日本の国土は山地・丘陵地が約4分の3を占め、平地が少ない。"
   },
   {
     "id": "q246",
@@ -3771,7 +4097,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「北西」です。"
+    "explanation": "冬は大陸から北西の季節風が吹き、日本海で水蒸気を含み、日本海側に雪を降らせる。"
   },
   {
     "id": "q247",
@@ -3786,7 +4112,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「人口・工業地域」です。"
+    "explanation": "太平洋ベルトは関東から北九州にかけて太平洋・瀬戸内海沿岸に人口や工業が集中する地域。"
   },
   {
     "id": "q248",
@@ -3801,7 +4127,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「東京・横浜」です。"
+    "explanation": "京浜工業地帯は東京・横浜を中心とする。京葉は千葉、阪神は大阪・神戸、中京は名古屋周辺。"
   },
   {
     "id": "q249",
@@ -3816,7 +4142,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「自動車工業」です。"
+    "explanation": "中京工業地帯は愛知県を中心に自動車工業が特に盛ん。豊田市などが代表。"
   },
   {
     "id": "q250",
@@ -3831,7 +4157,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「降水量が比較的少ない」です。"
+    "explanation": "瀬戸内地方は周囲を山地に囲まれ、季節風の影響を受けにくいため降水量が比較的少ない。"
   },
   {
     "id": "q251",
@@ -3846,7 +4172,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「ロシア」です。"
+    "explanation": "世界最大の面積を持つ国はロシア。カナダ、中国、アメリカも面積の大きい国。"
   },
   {
     "id": "q252",
@@ -3861,7 +4187,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「熱帯」です。"
+    "explanation": "赤道付近は一年を通して気温が高く、熱帯が広がる。"
   },
   {
     "id": "q253",
@@ -3876,7 +4202,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「ヨーロッパ連合」です。"
+    "explanation": "EUはEuropean Union（ヨーロッパ連合）。ヨーロッパの国々が経済・政治面で協力する枠組み。"
   },
   {
     "id": "q254",
@@ -3891,7 +4217,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「東南アジア」です。"
+    "explanation": "ASEANは東南アジア諸国連合。東南アジアの国々による地域協力組織。"
   },
   {
     "id": "q255",
@@ -3906,7 +4232,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「季節によって風向が変わる季節風」です。"
+    "explanation": "モンスーンは季節によって風向が変わる季節風。南・東アジアの気候に大きな影響を与える。"
   },
   {
     "id": "q256",
@@ -3921,7 +4247,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「縄文土器」です。"
+    "explanation": "縄文時代を代表するのは縄目の文様を持つ縄文土器。弥生土器は弥生時代。"
   },
   {
     "id": "q257",
@@ -3936,7 +4262,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「弥生時代」です。"
+    "explanation": "日本で稲作が本格的に広まったのは弥生時代。金属器の使用も広がった。"
   },
   {
     "id": "q258",
@@ -3951,7 +4277,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「十七条の憲法」です。"
+    "explanation": "聖徳太子が定めたとされる十七条の憲法は、役人の心構えを示したもの。冠位十二階とセットで覚える。"
   },
   {
     "id": "q259",
@@ -3966,14 +4292,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "大化の改新は645年に始まった。中大兄皇子と中臣鎌足が中心となった政治改革。",
+    "explanation": "大化の改新は645年。中大兄皇子・中臣鎌足らが蘇我氏を倒し、中央集権的な国づくりを進めた。",
     "choiceNotes": [
       "645年：大化の改新。",
       "794年：平安京へ遷都。",
       "710年：平城京へ遷都。",
-      "1192年：源頼朝が征夷大将軍になった年として伝統的に覚える年。"
+      "1192年：鎌倉幕府の成立年として伝統的に覚えられてきた年。"
     ],
-    "memoryTip": "645＝大化の改新、710＝平城京、794＝平安京をセットで。"
+    "memoryTip": "645＝大化の改新、710＝平城京、794＝平安京をセットで整理。"
   },
   {
     "id": "q260",
@@ -3988,7 +4314,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「平城京」です。"
+    "explanation": "奈良時代の都は平城京。710年に都が移された。「なんと(710)立派な平城京」で覚える。"
   },
   {
     "id": "q261",
@@ -4003,7 +4329,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「平安京」です。"
+    "explanation": "794年に桓武天皇が都を平安京へ移した。ここから平安時代が始まる。"
   },
   {
     "id": "q262",
@@ -4018,7 +4344,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「源頼朝」です。"
+    "explanation": "源頼朝は鎌倉に武家政権を築き、鎌倉幕府を開いた人物。",
+    "memoryTip": "頼朝＝鎌倉／尊氏＝室町／家康＝江戸。"
   },
   {
     "id": "q263",
@@ -4033,12 +4360,12 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "足利尊氏が京都に室町幕府を開いた。",
+    "explanation": "足利尊氏は京都に室町幕府を開いた。源頼朝=鎌倉、足利尊氏=室町、徳川家康=江戸。",
     "choiceNotes": [
-      "源頼朝：鎌倉幕府を開いた。",
-      "足利尊氏：室町幕府を開いた。",
+      "源頼朝：鎌倉幕府。",
+      "足利尊氏：室町幕府。",
       "織田信長：室町幕府を滅ぼしたが、自ら幕府は開いていない。",
-      "徳川家康：江戸幕府を開いた。"
+      "徳川家康：江戸幕府。"
     ],
     "memoryTip": "頼朝＝鎌倉／尊氏＝室町／家康＝江戸。"
   },
@@ -4055,7 +4382,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「徳川家康」です。"
+    "explanation": "徳川家康は1603年に征夷大将軍となり、江戸幕府を開いた。",
+    "memoryTip": "1603＝家康・江戸幕府。",
+    "choiceNotes": [
+      "徳川吉宗：江戸幕府8代将軍、享保の改革。",
+      "豊臣秀吉：全国統一を進めたが江戸幕府は開いていない。",
+      "徳川家康：江戸幕府を開いた。",
+      "足利義満：室町幕府3代将軍。"
+    ]
   },
   {
     "id": "q265",
@@ -4070,7 +4404,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「楽市・楽座」です。"
+    "explanation": "楽市・楽座は、市場の特権や座を廃止・緩和して商工業を活発にしようとした織田信長の政策。"
   },
   {
     "id": "q266",
@@ -4085,7 +4419,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「太閤検地」です。"
+    "explanation": "太閤検地は豊臣秀吉が全国の田畑の面積・収穫高などを調べた政策。刀狩とあわせて兵農分離を進めた。"
   },
   {
     "id": "q267",
@@ -4100,7 +4434,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「参勤交代」です。"
+    "explanation": "参勤交代は大名を定期的に江戸と領地の間で往復させる制度。幕府が大名を統制する目的があった。"
   },
   {
     "id": "q268",
@@ -4115,7 +4449,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「ペリー」です。"
+    "explanation": "1853年、アメリカのペリーが浦賀へ来航し、開国を要求した。翌1854年に日米和親条約。"
   },
   {
     "id": "q269",
@@ -4130,7 +4464,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「廃藩置県」です。"
+    "explanation": "1871年の廃藩置県で藩を廃止し、府・県を置いた。中央政府による統治を強めた。"
   },
   {
     "id": "q270",
@@ -4145,7 +4479,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「大日本帝国憲法」です。"
+    "explanation": "1889年に大日本帝国憲法が発布された。翌1890年に帝国議会が開かれた。"
   },
   {
     "id": "q271",
@@ -4160,7 +4494,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「下関条約」です。"
+    "explanation": "日清戦争後の1895年に下関条約。清は日本に台湾などを割譲した。"
   },
   {
     "id": "q272",
@@ -4175,7 +4509,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「ポーツマス条約」です。"
+    "explanation": "日露戦争後の1905年にポーツマス条約。アメリカ大統領セオドア・ローズベルトが仲介。"
   },
   {
     "id": "q273",
@@ -4190,7 +4524,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「国際連盟」です。"
+    "explanation": "第一次世界大戦後、国際平和を目的に国際連盟が設立された。提唱した米大統領ウィルソンのアメリカは参加しなかった。"
   },
   {
     "id": "q274",
@@ -4205,7 +4539,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「国際連合」です。"
+    "explanation": "第二次世界大戦後の1945年に国際連合が発足した。国際連盟の反省を踏まえた国際機関。"
   },
   {
     "id": "q275",
@@ -4220,7 +4554,8 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「1947年」です。"
+    "explanation": "日本国憲法は1946年11月3日に公布、1947年5月3日に施行された。公布と施行を区別する。",
+    "memoryTip": "公布＝1946年11月3日、施行＝1947年5月3日。"
   },
   {
     "id": "q276",
@@ -4235,7 +4570,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「基本的人権の尊重」です。"
+    "explanation": "日本国憲法の三大原則は「国民主権・基本的人権の尊重・平和主義」。"
   },
   {
     "id": "q277",
@@ -4250,7 +4585,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「国民主権」です。"
+    "explanation": "国民主権は、政治の最終的な決定権が国民にあるという原則。日本国憲法の三大原則の一つ。"
   },
   {
     "id": "q278",
@@ -4265,7 +4600,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「平和主義」です。"
+    "explanation": "平和主義は、日本国憲法の三大原則の一つ。戦争放棄などを定める憲法9条と関連する。"
   },
   {
     "id": "q279",
@@ -4280,7 +4615,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「唯一の立法機関」です。"
+    "explanation": "国会は国権の最高機関であり、国の唯一の立法機関。法律をつくる。"
   },
   {
     "id": "q280",
@@ -4295,7 +4630,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「国会」です。"
+    "explanation": "法律を制定するのは国会。内閣は行政、裁判所は司法を担当する。"
   },
   {
     "id": "q281",
@@ -4310,7 +4645,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「内閣」です。"
+    "explanation": "行政を担当するのは内閣。法律や予算に基づいて実際の政治を進める。"
   },
   {
     "id": "q282",
@@ -4325,7 +4660,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「裁判所」です。"
+    "explanation": "司法を担当するのは裁判所。法律に基づいて争いを解決し、裁判を行う。"
   },
   {
     "id": "q283",
@@ -4340,7 +4675,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「4年」です。"
+    "explanation": "衆議院議員の任期は4年。ただし衆議院が解散されると任期途中でも終了する。"
   },
   {
     "id": "q284",
@@ -4355,7 +4690,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「6年」です。"
+    "explanation": "参議院議員の任期は6年。3年ごとに半数を改選し、衆議院のような解散はない。"
   },
   {
     "id": "q285",
@@ -4370,7 +4705,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「天皇（内閣の助言と承認による）」です。"
+    "explanation": "衆議院の解散は、憲法上、内閣の助言と承認により天皇が国事行為として行う。"
   },
   {
     "id": "q286",
@@ -4385,7 +4720,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「権力の集中を防ぐため」です。"
+    "explanation": "三権分立は、立法・行政・司法を分けて相互に抑制させ、権力の集中や乱用を防ぐ仕組み。"
   },
   {
     "id": "q287",
@@ -4400,7 +4735,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「直接選挙」です。"
+    "explanation": "地方自治では、住民が首長（知事・市町村長）と議会議員を直接選挙で選ぶ。"
   },
   {
     "id": "q288",
@@ -4415,7 +4750,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「裁判員制度」です。"
+    "explanation": "裁判員制度では、国民から選ばれた裁判員が裁判官とともに一定の重大な刑事裁判に参加する。"
   },
   {
     "id": "q289",
@@ -4430,7 +4765,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「国民審査」です。"
+    "explanation": "最高裁判所裁判官の国民審査は、衆議院議員総選挙の際に行われる。裁判官を罷免するか国民が審査する制度。"
   },
   {
     "id": "q290",
@@ -4445,7 +4780,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「間接税」です。"
+    "explanation": "消費税は、納税者と実際に負担する人が異なる間接税。商品やサービスの購入時に負担する。"
   },
   {
     "id": "q291",
@@ -4460,7 +4795,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「直接税」です。"
+    "explanation": "所得税は、所得を得た本人が納税する直接税。所得が多いほど税率が高くなる累進課税が採用されている。"
   },
   {
     "id": "q292",
@@ -4475,7 +4810,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「上がりやすい」です。"
+    "explanation": "需要が増えて供給が変わらなければ、欲しい人が増えるため価格は一般に上がりやすい。需要と供給で価格が決まる基本。"
   },
   {
     "id": "q293",
@@ -4490,7 +4825,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「金融政策を行う」です。"
+    "explanation": "日本銀行は日本の中央銀行。金融政策、紙幣の発行、銀行の銀行などの役割を持つ。"
   },
   {
     "id": "q294",
@@ -4505,7 +4840,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「社会保障を支える現役世代の負担」です。"
+    "explanation": "少子高齢化では、社会保障を支える現役世代が相対的に減り、年金・医療などの負担が課題になりやすい。"
   },
   {
     "id": "q295",
@@ -4520,7 +4855,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「ニューヨーク」です。"
+    "explanation": "国際連合の本部はアメリカ合衆国ニューヨークにある。"
   },
   {
     "id": "q296",
@@ -4535,7 +4870,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「SDGs」です。"
+    "explanation": "SDGsはSustainable Development Goals（持続可能な開発目標）。2030年までの17の国際目標。"
   },
   {
     "id": "q297",
@@ -4550,7 +4885,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「国内総生産」です。"
+    "explanation": "GDPは国内総生産。一定期間に国内で新たに生み出された付加価値の合計を示す。"
   },
   {
     "id": "q298",
@@ -4565,7 +4900,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「非政府組織」です。"
+    "explanation": "NGOはNon-Governmental Organization（非政府組織）。政府ではない立場で国際協力などに取り組む組織。"
   },
   {
     "id": "q299",
@@ -4580,7 +4915,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「政府開発援助」です。"
+    "explanation": "ODAはOfficial Development Assistance（政府開発援助）。政府が途上国などの開発を支援する資金・技術協力。"
   },
   {
     "id": "q300",
@@ -4595,6 +4930,6 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「秘密選挙」です。"
+    "explanation": "秘密選挙は、誰に投票したかを他人に知られないよう保障する選挙の原則。"
   }
 ]
