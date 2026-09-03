@@ -1,5 +1,6 @@
-const STORAGE='kokoQuizV02';
-const OLD_STORAGE='kokoQuizV01';
+const STORAGE='kokoQuizV04';
+const OLD_STORAGES=['kokoQuizV03','kokoQuizV02','kokoQuizV01'];
+const STAGES=[{level:1,target:300},{level:2,target:600},{level:3,target:1000},{level:4,target:2000}];
 const SUBJECTS=['国語','数学','英語','理科','社会'];
 let questions=[], qmap={};
 let state=loadState();
@@ -11,10 +12,11 @@ function loadState(){
   try{
     let v=JSON.parse(localStorage.getItem(STORAGE));
     if(v) return normalizeState(v);
-    let old=JSON.parse(localStorage.getItem(OLD_STORAGE));
-    if(old){
-      const migrated=blankState();
-      migrated.qstats=old.qstats||{};
+    for(const key of OLD_STORAGES){
+      let old=JSON.parse(localStorage.getItem(key));
+      if(!old)continue;
+      if(key==='kokoQuizV02')return normalizeState(old);
+      const migrated=blankState(); migrated.qstats=old.qstats||{};
       for(const [k,h] of Object.entries(old.history||{})){
         const ans=(h.answers||[]).map(a=>({...a,mode:'daily',eval:mapOldEval(a.eval)}));
         migrated.history[k]={official:ans.length>=10?ans.slice(0,10):[],attempts:ans,masterGained:0};
@@ -42,8 +44,8 @@ function pct(n,d){return d?Math.round(n/d*100):0}
 function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));document.getElementById(id).classList.add('active')}
 function todayHist(){return state.history[dateKey()]||{official:[],attempts:[],masterGained:0}}
 function ensureToday(){const k=dateKey();if(!state.history[k])state.history[k]={official:[],attempts:[],masterGained:0};return state.history[k]}
-function isUnderstood(a){return ['perfect','understood'].includes(a.eval)}
-function isTrouble(a){return !a.correct||['guess','unknown'].includes(a.eval)}
+function isUnderstood(a){return a.correct&&['confident','perfect'].includes(a.eval)}
+function isTrouble(a){return !a.correct||['unsure','guess','unknown'].includes(a.eval)}
 function qstat(id){return state.qstats[id]||{attempts:0,correct:0,wrong:0,perfectDates:[],mastered:false}}
 function isMastered(id){return !!qstat(id).mastered}
 function masteryReady(id){
@@ -64,6 +66,12 @@ function bestStreak(){
   return best;
 }
 function masteredCount(sub=null){return questions.filter(q=>(!sub||q.subject===sub)&&isMastered(q.id)).length}
+function currentStage(){
+  const m=masteredCount();
+  return STAGES.find(x=>m<x.target)||STAGES[STAGES.length-1];
+}
+function stageStartTarget(level){return level===1?0:STAGES[level-2].target}
+function stageProgress(){const st=currentStage(),m=masteredCount();return {st,m,complete:m>=2000,p:pct(m,st.target)}}
 
 function renderHome(){
   show('homeView'); selectedDate=selectedDate||dateKey();
@@ -89,10 +97,12 @@ function renderLifetime(){
   document.getElementById('studyDays').textContent=keys.length;
   document.getElementById('currentStreak').textContent=streakFrom();
   document.getElementById('bestStreak').textContent=bestStreak();
-  const mc=masteredCount(), mp=pct(mc,questions.length);
-  document.getElementById('masterTotal').textContent=`${mc} / ${questions.length}`;
-  document.getElementById('masterPercent').textContent=`${mp}%`;
-  document.getElementById('masterBar').style.width=mp+'%';
+  const {st,m:mc,complete,p:mp}=stageProgress();
+  document.getElementById('stageLabel').textContent=complete?'ALL MASTERED':`LEVEL ${st.level}`;
+  document.getElementById('masterTotal').textContent=`${mc} / ${st.target}`;
+  document.getElementById('masterPercent').textContent=complete?'高校入試 COMPLETE':`${mp}%`;
+  document.getElementById('masterBar').style.width=Math.min(100,mp)+'%';
+  document.getElementById('nextStage').textContent=complete?'2,000問 MASTER — COMPLETE':st.level<4?`NEXT  ${STAGES[st.level].target}  🔒`:'FINAL STAGE — 2,000 MASTER';
   const box=document.getElementById('subjectMaster');box.innerHTML='';
   SUBJECTS.forEach(s=>{
     const total=questions.filter(q=>q.subject===s).length,m=masteredCount(s),p=pct(m,total);
@@ -146,16 +156,24 @@ function openDetail(a,q){
   document.getElementById('detailQuestion').textContent=q.question;
   document.getElementById('detailYourAnswer').textContent=q.choices[a.choice]??'記録なし';
   document.getElementById('detailCorrectAnswer').textContent=q.choices[q.answer];
-  document.getElementById('detailExplanation').textContent=cleanExplanation(q);
+  document.getElementById('detailExplanation').innerHTML=explanationHtml(q);
   document.getElementById('detailEval').textContent='自己評価：'+evalLabel(a.eval);
   document.getElementById('detailModal').classList.remove('hidden');
 }
-function evalLabel(e){return ({perfect:'完璧',guess:'あてずっぽ',understood:'理解できた',unknown:'まだわからない'}[e]||'記録なし')}
+function evalLabel(e){return ({confident:'自信あった',unsure:'迷った',gotit:'へぇ！',confused:'どういうこと？',perfect:'自信あった',guess:'迷った',understood:'へぇ！',unknown:'どういうこと？'}[e]||'記録なし')}
 function cleanExplanation(q){
   let e=(q.explanation||'').trim();
   e=e.replace(/^正解は「[^」]+」です。[。]?/,'').trim();
-  if(!e)return `正解は「${q.choices[q.answer]}」。問題文の条件と結びつけて覚えよう。`;
+  if(!e)return `正解は「${q.choices[q.answer]}」。`;
   return e;
+}
+function explanationHtml(q){
+  const parts=[`<p class="explain-main">${escapeHtml(cleanExplanation(q))}</p>`];
+  if(Array.isArray(q.choiceNotes)&&q.choiceNotes.length){
+    parts.push('<div class="choice-notes">'+q.choiceNotes.map((n,i)=>`<div class="choice-note ${i===q.answer?'answer-note':''}"><b>${i+1}.</b> ${escapeHtml(n)}</div>`).join('')+'</div>');
+  }
+  if(q.memoryTip)parts.push(`<div class="memory-tip"><b>覚え方</b> ${escapeHtml(q.memoryTip)}</div>`);
+  return parts.join('');
 }
 
 function weakness(q){
@@ -165,11 +183,21 @@ function weakness(q){
 function dailyQuestions(){
   const key=dateKey(),out=[];
   for(const sub of SUBJECTS){
-    const pool=questions.filter(q=>q.subject===sub);
+    const pool=questions.filter(q=>q.subject===sub&&!isMastered(q.id));
     const ranked=seededSort(pool,key+sub).sort((a,b)=>weakness(b)-weakness(a));
     out.push(...ranked.slice(0,2));
   }
-  return seededSort(out,key+'all');
+  let result=seededSort(out,key+'all').slice(0,10);
+  // MASTER済みも忘却防止のため低頻度で復習。日付ハッシュで約3日に1回、1問だけ混ぜる。
+  if(hash(key+'master-review')%3===0){
+    const mastered=seededSort(questions.filter(q=>isMastered(q.id)),key+'master-review');
+    if(mastered.length&&result.length){result[result.length-1]=mastered[0]}
+  }
+  if(result.length<10){
+    const fill=seededSort(questions.filter(q=>!result.some(x=>x.id===q.id)),key+'fill');
+    result.push(...fill.slice(0,10-result.length));
+  }
+  return result;
 }
 function moreQuestions(){
   const unseen=seededSort(questions.filter(q=>!qstat(q.id).attempts),dateKey()+'new');
@@ -204,14 +232,14 @@ function answer(i){
   if(pending)return;const q=quiz[qi],correct=i===q.answer;
   pending={qid:q.id,subject:q.subject,choice:i,correct,mode:sessionMode,time:Date.now()};
   document.querySelectorAll('.choice').forEach((b,j)=>{b.disabled=true;if(j===q.answer)b.classList.add('correct');if(j===i&&!correct)b.classList.add('wrong')});
-  document.getElementById('verdict').textContent=correct?'CORRECT':'INCORRECT';
+  document.getElementById('verdict').textContent=correct?'正解！':'不正解';
   document.getElementById('verdict').className='verdict '+(correct?'correct':'wrong');
   document.getElementById('correctAnswer').textContent=q.choices[q.answer];
-  document.getElementById('explanationText').textContent=cleanExplanation(q);
+  document.getElementById('explanationText').innerHTML=explanationHtml(q);
   document.getElementById('feedback').classList.remove('hidden');
   const evalBox=document.getElementById('evalButtons');evalBox.innerHTML='';
-  const opts=correct?[['perfect','完璧'],['guess','あてずっぽ']]:[['understood','理解できた'],['unknown','まだわからない']];
-  document.getElementById('evalQuestion').textContent=correct?'この答え、自信をもって選べた？':'解説を読んで、理解できた？';
+  const opts=correct?[['confident','自信あった'],['unsure','迷った']]:[['gotit','へぇ！'],['confused','どういうこと？']];
+  document.getElementById('evalQuestion').textContent=correct?'答えるとき、どうだった？':'解説を読んで、どうだった？';
   opts.forEach(([v,t])=>{const b=document.createElement('button');b.textContent=t;b.onclick=()=>evalAnswer(v);evalBox.append(b)});
   document.getElementById('selfEval').classList.remove('hidden');
 }
@@ -219,7 +247,7 @@ function evalAnswer(ev){
   if(!pending)return;pending.eval=ev;const k=dateKey(),h=ensureToday(),s=qstat(pending.qid),wasMaster=!!s.mastered;
   s.attempts=(s.attempts||0)+1;pending.correct?s.correct=(s.correct||0)+1:s.wrong=(s.wrong||0)+1;
   s.perfectDates=s.perfectDates||[];
-  if(pending.correct&&ev==='perfect'&&!s.perfectDates.includes(k))s.perfectDates.push(k);
+  if(pending.correct&&['confident','perfect'].includes(ev)&&!s.perfectDates.includes(k))s.perfectDates.push(k);
   if(new Set(s.perfectDates).size>=2)s.mastered=true;
   state.qstats[pending.qid]=s;
   if(!wasMaster&&s.mastered)h.masterGained=(h.masterGained||0)+1;

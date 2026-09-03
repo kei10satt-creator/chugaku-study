@@ -822,7 +822,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「反語」です。"
+    "explanation": "反語は、疑問の形を使って、実際には反対の意味を強く伝える表現。",
+    "choiceNotes": [
+      "対句：似た形の語句や文を対にして並べる表現。",
+      "反語：疑問形で反対の意味を強く言い切る表現。",
+      "擬音語：音や声を言葉で表す。「ザーザー」など。",
+      "倒置法：語順を通常と入れ替えて印象を強める表現。"
+    ],
+    "memoryTip": "「誰が信じるだろうか」→「誰も信じない」のように考える。"
   },
   {
     "id": "q056",
@@ -2037,7 +2044,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「〜に興味がある」です。"
+    "explanation": "be interested in ～ ＝「～に興味がある」。",
+    "choiceNotes": [
+      "be afraid of ～：～を恐れている。",
+      "be interested in ～：～に興味がある。",
+      "be late for ～：～に遅れる。",
+      "be famous for ～：～で有名だ。"
+    ],
+    "memoryTip": "I am interested in music. ＝ 私は音楽に興味があります。"
   },
   {
     "id": "q137",
@@ -2052,7 +2066,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「〜が得意だ」です。"
+    "explanation": "be good at ～ ＝「～が得意だ」。at の後ろには名詞や動名詞（～ing）を置く。",
+    "choiceNotes": [
+      "wait for ～：～を待つ。",
+      "be good at ～：～が得意だ。",
+      "look for ～：～を探す。",
+      "be similar to ～：～に似ている。"
+    ],
+    "memoryTip": "I'm good at math. ＝ 私は数学が得意です。"
   },
   {
     "id": "q138",
@@ -2067,7 +2088,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「〜を楽しみに待つ」です。"
+    "explanation": "look forward to ～ ＝「～を楽しみに待つ」。to の後ろは名詞や ～ing。",
+    "choiceNotes": [
+      "look into ～：～を調べる。",
+      "look back on ～：～を振り返る。",
+      "look forward to ～：～を楽しみに待つ。",
+      "look down on ～：～を見下す。"
+    ],
+    "memoryTip": "I look forward to seeing you. ＝ あなたに会うのを楽しみにしています。"
   },
   {
     "id": "q139",
@@ -2082,7 +2110,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「〜の世話をする」です。"
+    "explanation": "take care of ～ ＝「～の世話をする」。",
+    "choiceNotes": [
+      "take a picture of ～：～の写真を撮る。",
+      "pick out ～：～を選び出す。",
+      "use up ～：～を使い切る。",
+      "take care of ～：～の世話をする。"
+    ],
+    "memoryTip": "Take care of this dog. ＝ この犬の世話をして。"
   },
   {
     "id": "q140",
@@ -2097,7 +2132,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「〜するとすぐに」です。"
+    "explanation": "as soon as ～ ＝「～するとすぐに」。",
+    "choiceNotes": [
+      "before ～：～する前に。",
+      "as soon as ～：～するとすぐに。",
+      "as long as ～：～する限り。",
+      "as ... as ～：～と同じくらい…。"
+    ],
+    "memoryTip": "as soon as I get home ＝ 家に着くとすぐに。"
   },
   {
     "id": "q141",
@@ -2112,7 +2154,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「〜するために」です。"
+    "explanation": "in order to ＋ 動詞 ＝「～するために」。目的を表す。",
+    "choiceNotes": [
+      "in order to ～：～するために。",
+      "despite ～：～にもかかわらず。",
+      "compared with ～：～と比べて。",
+      "instead of ～：～の代わりに。"
+    ],
+    "memoryTip": "I study hard in order to pass. ＝ 合格するために一生懸命勉強する。"
   },
   {
     "id": "q142",
@@ -2127,7 +2176,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「例えば」です。"
+    "explanation": "for example ＝「例えば」。具体例を挙げるときに使う。",
+    "choiceNotes": [
+      "first：最初に。",
+      "as a result：その結果。",
+      "on the other hand：一方で。",
+      "for example：例えば。"
+    ],
+    "memoryTip": "I like sports, for example, soccer. ＝ 私はスポーツ、例えばサッカーが好きです。"
   },
   {
     "id": "q143",
@@ -2142,7 +2198,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「最初は」です。"
+    "explanation": "at first ＝「最初は」。あとで状況が変わる文脈でよく使う。",
+    "choiceNotes": [
+      "at first：最初は。",
+      "finally：ついに。",
+      "at the same time：同時に。",
+      "at least：少なくとも。"
+    ],
+    "memoryTip": "At first, I was nervous. ＝ 最初は緊張していました。"
   },
   {
     "id": "q144",
@@ -2157,7 +2220,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「お互いに」です。"
+    "explanation": "each other ＝「お互いに」。2人以上が互いに行う動作を表す。",
+    "choiceNotes": [
+      "each other：お互いに。",
+      "one by one：一人ずつ／一つずつ。",
+      "each：それぞれ。",
+      "all the others：他のすべて。"
+    ],
+    "memoryTip": "We help each other. ＝ 私たちはお互いに助け合います。"
   },
   {
     "id": "q145",
@@ -2172,7 +2242,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「〜のうちの1つ」です。"
+    "explanation": "one of the ＋ 複数名詞 ＝「～のうちの1つ（1人）」。",
+    "choiceNotes": [
+      "half of ～：～の半分。",
+      "the same as ～：～と同じ。",
+      "one of the ～：～のうちの1つ。",
+      "all but ～：～以外のすべて。"
+    ],
+    "memoryTip": "one of the best players ＝ 最も優れた選手の一人。"
   },
   {
     "id": "q146",
@@ -2757,7 +2834,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「師管」です。"
+    "explanation": "葉でつくられた養分は「師管」を通って、根や成長している部分へ運ばれる。",
+    "choiceNotes": [
+      "気管：人などの呼吸器で、空気の通り道。",
+      "師管：葉でつくられた養分を運ぶ。",
+      "道管：根から吸収した水や無機養分を運ぶ。",
+      "血管：動物の血液が通る管。"
+    ],
+    "memoryTip": "師管＝養分／道管＝水 と対にして覚えよう。"
   },
   {
     "id": "q185",
@@ -3882,7 +3966,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「645年」です。"
+    "explanation": "大化の改新は645年に始まった。中大兄皇子と中臣鎌足が中心となった政治改革。",
+    "choiceNotes": [
+      "645年：大化の改新。",
+      "794年：平安京へ遷都。",
+      "710年：平城京へ遷都。",
+      "1192年：源頼朝が征夷大将軍になった年として伝統的に覚える年。"
+    ],
+    "memoryTip": "645＝大化の改新、710＝平城京、794＝平安京をセットで。"
   },
   {
     "id": "q260",
@@ -3942,7 +4033,14 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "正解は「足利尊氏」です。"
+    "explanation": "足利尊氏が京都に室町幕府を開いた。",
+    "choiceNotes": [
+      "源頼朝：鎌倉幕府を開いた。",
+      "足利尊氏：室町幕府を開いた。",
+      "織田信長：室町幕府を滅ぼしたが、自ら幕府は開いていない。",
+      "徳川家康：江戸幕府を開いた。"
+    ],
+    "memoryTip": "頼朝＝鎌倉／尊氏＝室町／家康＝江戸。"
   },
   {
     "id": "q264",
