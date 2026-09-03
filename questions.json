@@ -12,7 +12,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「けんちょ」です。"
+    "explanation": "「顕著（けんちょ）」は、はっきりと目立っていること。例：『努力の成果が顕著に表れた』＝成果がはっきり目立って表れた。"
   },
   {
     "id": "q002",
@@ -27,7 +27,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「けんめい」です。"
+    "explanation": "「懸命（けんめい）」は、力の限り一生懸命に取り組むこと。例：『懸命に走る』＝全力で走る。"
   },
   {
     "id": "q003",
@@ -42,7 +42,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「そくしん」です。"
+    "explanation": "「促進（そくしん）」は、物事が早く進むようにうながすこと。例：『成長を促進する』＝成長をより進ませる。"
   },
   {
     "id": "q004",
@@ -72,7 +72,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「そんちょう」です。"
+    "explanation": "「尊重（そんちょう）」は、価値のあるものとして大切に扱うこと。例：『相手の意見を尊重する』＝相手の意見を大切にする。"
   },
   {
     "id": "q006",
@@ -87,7 +87,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「もさく」です。"
+    "explanation": "「模索（もさく）」は、手探りで方法や答えを探すこと。例：『解決策を模索する』＝よい解決策を探し続ける。"
   },
   {
     "id": "q007",
@@ -102,7 +102,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「じゅうなん」です。"
+    "explanation": "「柔軟（じゅうなん）」は、やわらかく、状況に応じて考え方や対応を変えられること。例：『柔軟に対応する』。"
   },
   {
     "id": "q008",
@@ -117,7 +117,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「こうけん」です。"
+    "explanation": "「貢献（こうけん）」は、あることのために力を尽くし、役に立つこと。例：『地域に貢献する』＝地域のために役立つ。"
   },
   {
     "id": "q009",
@@ -132,7 +132,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「はあく」です。"
+    "explanation": "「把握（はあく）」は、内容や状況をしっかり理解すること。例：『状況を把握する』＝今どうなっているかを理解する。"
   },
   {
     "id": "q010",
@@ -147,7 +147,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「たんてき」です。"
+    "explanation": "「端的（たんてき）」は、要点をはっきりと簡潔に表すさま。例：『端的に説明する』＝要点をしぼって分かりやすく説明する。"
   },
   {
     "id": "q011",
@@ -162,7 +162,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「ゆうりょ」です。"
+    "explanation": "「憂慮（ゆうりょ）」は、悪いことが起こらないか心配すること。例：『事態を憂慮する』＝今後の成り行きを心配する。"
   },
   {
     "id": "q012",
@@ -177,7 +177,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「すいこう」です。"
+    "explanation": "「遂行（すいこう）」は、仕事や任務を最後までやりとげること。例：『任務を遂行する』＝任務を最後まで実行する。"
   },
   {
     "id": "q013",
@@ -192,7 +192,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "正解は「ぎんみ」です。"
+    "explanation": "「吟味（ぎんみ）」は、内容をよく調べ、詳しく検討すること。例：『材料を吟味する』＝材料をよく調べて選ぶ。"
   },
   {
     "id": "q014",
@@ -207,7 +207,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "正解は「せいち」です。"
+    "explanation": "「精緻（せいち）」は、非常に細かく、よくできていること。例：『精緻な模型』＝細部まで精密に作られた模型。"
   },
   {
     "id": "q015",
@@ -222,7 +222,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "正解は「とうしゅう」です。"
+    "explanation": "「踏襲（とうしゅう）」は、以前からのやり方・考え方を受け継いで、そのまま行うこと。例：『従来の方式を踏襲する』。"
   },
   {
     "id": "q016",
@@ -673,7 +673,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "「この」は名詞「本」を直接修飾する連体詞。活用しない。",
+    "explanation": "「この」は名詞「本」を直接修飾する連体詞。",
     "choiceNotes": [
       "形容詞は「美しい」など。",
       "「この・その・あの・どの」は連体詞。",
@@ -1751,7 +1751,8 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "同じ弧に対する円周角は、中心角の1/2。中心角=円周角×2。"
+    "explanation": "同じ弧ABを見るとき、円の中心Oでできる∠AOBが「中心角」、円周上の点Pでできる∠APBが「円周角」。同じ弧に対して、円周角は中心角の1/2になる。",
+    "diagram": "circleAngles"
   },
   {
     "id": "q100",
@@ -1888,7 +1889,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "2本の平行線を1本の直線が横切るとき、錯角は等しい。図では「Z」の形で向かい合う角を探す。",
+    "explanation": "2本の平行線を1本の直線が横切るとき、2本の平行線の内側にあり、横切る直線をはさんで反対側にある角を錯角という。平行線にできる錯角の大きさは等しい。",
     "choiceNotes": [
       "和が180°：同側内角では成り立つが、錯角そのものの関係ではない。",
       "等しい：平行線にできる錯角の性質。",
@@ -2429,14 +2430,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "take 人 to 場所 = 「人を場所へ連れて行く」。Please take me to the station. = 私を駅まで連れて行ってください。",
+    "explanation": "in order to + 動詞の原形 ＝「〜するために」。目的を表す。例：I study hard in order to pass the exam. ＝ 私は試験に合格するために一生懸命勉強する。",
     "choiceNotes": [
       "in order to ～：～するために。",
       "despite ～：～にもかかわらず。",
       "compared with ～：～と比べて。",
       "instead of ～：～の代わりに。"
     ],
-    "memoryTip": "take + 人 + to + 場所。「人を～へ連れて行く」。"
+    "memoryTip": "in order to + 動詞の原形＝「～するために」。"
   },
   {
     "id": "q142",
@@ -2451,14 +2452,14 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "look for ～ = 「～を探す」。I am looking for my key. = 鍵を探しています。",
+    "explanation": "for example ＝「例えば」。具体例を挙げるときに使う。例：I like sports, for example, soccer. ＝ 私はスポーツ、例えばサッカーが好きです。",
     "choiceNotes": [
-      "first：最初に。",
-      "as a result：その結果。",
-      "on the other hand：一方で。",
-      "for example：例えば。"
+      "for example：例えば。",
+      "at first：最初は。",
+      "instead：その代わりに。",
+      "however：しかし。"
     ],
-    "memoryTip": "I like sports, for example, soccer. ＝ 私はスポーツ、例えばサッカーが好きです。"
+    "memoryTip": "for example＝「例えば」。具体例を出す合図。"
   },
   {
     "id": "q143",
@@ -2473,14 +2474,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "be famous for ～ = 「～で有名だ」。Niigata is famous for rice. = 新潟は米で有名です。",
+    "explanation": "at first ＝「最初は・初めは」。後で状況が変わったことを述べるときによく使う。例：At first, I was nervous. ＝ 最初は緊張していました。",
     "choiceNotes": [
       "at first：最初は。",
-      "finally：ついに。",
-      "at the same time：同時に。",
+      "at last：ついに。",
+      "at once：すぐに。",
       "at least：少なくとも。"
     ],
-    "memoryTip": "At first, I was nervous. ＝ 最初は緊張していました。"
+    "memoryTip": "at first＝「最初は」。"
   },
   {
     "id": "q144",
@@ -2495,14 +2496,14 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "be afraid of ～ = 「～を怖がる」。I am afraid of dogs. = 私は犬が怖い。",
+    "explanation": "each other ＝「お互いに」。2人以上が互いに同じ動作をすることを表す。例：We help each other. ＝ 私たちはお互いに助け合います。",
     "choiceNotes": [
       "each other：お互いに。",
-      "one by one：一人ずつ／一つずつ。",
-      "each：それぞれ。",
-      "all the others：他のすべて。"
+      "one another：お互いに（近い表現）。",
+      "by oneself：ひとりで。",
+      "one of ～：～のうちの1つ。"
     ],
-    "memoryTip": "We help each other. ＝ 私たちはお互いに助け合います。"
+    "memoryTip": "each other＝「お互いに」。"
   },
   {
     "id": "q145",
@@ -2517,14 +2518,14 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "be different from ～ = 「～と異なる」。A is different from B = AはBと違う。",
+    "explanation": "one of the + 複数名詞 ＝「〜のうちの1つ（1人）」。例：This is one of the best books. ＝ これは最もよい本の1冊です。one of の後ろは複数形になる。",
     "choiceNotes": [
-      "half of ～：～の半分。",
-      "the same as ～：～と同じ。",
-      "one of the ～：～のうちの1つ。",
-      "all but ～：～以外のすべて。"
+      "one of the + 複数名詞：～のうちの1つ。",
+      "all of ～：～のすべて。",
+      "both of ～：～の両方。",
+      "none of ～：～のどれも～ない。"
     ],
-    "memoryTip": "one of the best players ＝ 最も優れた選手の一人。"
+    "memoryTip": "one of the の後ろは複数名詞。"
   },
   {
     "id": "q146",
@@ -2539,7 +2540,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "want to + 動詞の原形 = 「〜したい」。I want to play tennis. = テニスをしたい。"
+    "explanation": "every Sunday「毎週日曜日」は習慣なので現在形。主語 I では動詞は原形 play。I play soccer every Sunday. ＝ 私は毎週日曜日にサッカーをします。"
   },
   {
     "id": "q147",
@@ -2554,7 +2555,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "have to + 動詞の原形 = 「〜しなければならない」。You have to study. = 勉強しなければならない。"
+    "explanation": "every day は習慣を表すので現在形。主語 She は3人称単数だから go → goes。She goes to school by bike every day. ＝ 彼女は毎日自転車で学校へ行きます。"
   },
   {
     "id": "q148",
@@ -2569,7 +2570,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "used to + 動詞の原形 = 「以前は〜したものだ」。今はそうではない、という含みがある。"
+    "explanation": "now「今」は現在進行形の目印。現在進行形は be動詞 + 動詞ing。主語 We なので are eating。We are eating dinner now. ＝ 私たちは今夕食を食べています。"
   },
   {
     "id": "q149",
@@ -2584,7 +2585,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "be able to + 動詞の原形 = 「〜することができる」。can と近い意味。"
+    "explanation": "last year「昨年」は過去を表すので過去形。visit の過去形は visited。He visited Kyoto last year. ＝ 彼は昨年京都を訪れました。"
   },
   {
     "id": "q150",
@@ -2599,8 +2600,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "It takes 人 時間 to do = 「人が〜するのに時間がかかる」。It takes me 20 minutes to walk to school. = 学校まで歩いて20分かかる。",
-    "memoryTip": "see-saw-seen の変化をセットで。"
+    "explanation": "have + 過去分詞は現在完了。see の過去分詞は seen。before と組み合わせて経験を表し、I have seen this movie before. ＝ 私は以前この映画を見たことがあります。"
   },
   {
     "id": "q151",
@@ -2615,8 +2615,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "tell 人 to do = 「人に〜するよう言う」。My mother told me to study. = 母は私に勉強するよう言った。",
-    "memoryTip": "受け身＝be + 過去分詞。"
+    "explanation": "「この本は多くの生徒に読まれる」なので受け身。受け身は be動詞 + 過去分詞。主語 This book は単数なので is read。read の過去分詞は綴りは同じ read。"
   },
   {
     "id": "q152",
@@ -2631,7 +2630,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "ask 人 to do = 「人に〜するよう頼む」。I asked him to help me. = 彼に手伝ってくれるよう頼んだ。"
+    "explanation": "if が「もし〜なら」と条件を表すとき、未来のことでも if 節の中は現在形を使う。主語 it は3人称単数なので rains。If it rains tomorrow, we will stay home."
   },
   {
     "id": "q153",
@@ -2646,7 +2645,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "make 人 形容詞 = 「人を〜な状態にする」。The news made me happy. = その知らせで私はうれしくなった。"
+    "explanation": "want to + 動詞の原形 ＝「〜したい」。be a doctor ＝「医者である」なので to be。I want to be a doctor. ＝ 私は医者になりたい。"
   },
   {
     "id": "q154",
@@ -2661,7 +2660,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "too ... to do = 「あまりに…なので〜できない」。too tired to walk = 疲れすぎて歩けない。"
+    "explanation": "enjoy の後ろは動名詞（動詞ing）。listen は「〜を聞く」のとき listen to ～ なので listening to。She enjoys listening to music. ＝ 彼女は音楽を聴くことを楽しみます。"
   },
   {
     "id": "q155",
@@ -2676,7 +2675,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "enough to do = 「〜するのに十分…」。old enough to drive = 運転できる年齢に達している。"
+    "explanation": "先行詞 The boy は人で、後ろの is running がその人を説明しているので関係代名詞 who。The boy who is running is my brother. ＝ 走っている少年は私の弟（兄）です。"
   },
   {
     "id": "q156",
@@ -2691,7 +2690,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "現在完了 have/has + 過去分詞。経験・完了・継続などを表す。have been to ～ = ～へ行ったことがある。"
+    "explanation": "先行詞 the book は物。I bought ___ yesterday の目的語になる関係代名詞として that を使える。This is the book that I bought yesterday. ＝ これは私が昨日買った本です。"
   },
   {
     "id": "q157",
@@ -2706,7 +2705,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "受け身は be動詞 + 過去分詞。「〜される」。English is spoken ... = 英語は話されている。"
+    "explanation": "than があるので比較級。「富士山は筑波山より高い」。high の比較級は higher。Mt. Fuji is higher than Mt. Tsukuba."
   },
   {
     "id": "q158",
@@ -2721,7 +2720,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "比較級 + than = 「〜より…」。bigger than, more important than など。"
+    "explanation": "in the city「市内で」と範囲の中で最も高いものを表すので最上級。tall → taller → tallest。This is the tallest building in the city. ＝ これは市内で最も高い建物です。"
   },
   {
     "id": "q159",
@@ -2736,7 +2735,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "the + 最上級 = 「最も〜」。the tallest, the most interesting など。"
+    "explanation": "must + 動詞の原形 ＝「〜しなければならない」。finish は動詞の原形なので must。You must finish your homework today. ＝ あなたは今日、宿題を終えなければなりません。"
   },
   {
     "id": "q160",
@@ -2751,7 +2750,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "不定詞 to + 動詞の原形は、目的「〜するために」などを表す。I went to the library to study. = 勉強するため図書館へ行った。"
+    "explanation": "ever「今までに」と been to「〜へ行ったことがある」から現在完了の経験。現在完了は have/has + 過去分詞。主語 you なので Have。Have you ever been to Osaka? ＝ 大阪へ行ったことがありますか。"
   },
   {
     "id": "q161",
@@ -2766,7 +2765,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "動名詞は動詞+ingを名詞のように使う形。Playing soccer is fun. = サッカーをすることは楽しい。"
+    "explanation": "How long + 現在完了 ＝「どのくらいの間〜していますか」。have + 過去分詞なので live → lived。How long have you lived here? ＝ ここにどのくらい住んでいますか。"
   },
   {
     "id": "q162",
@@ -2781,7 +2780,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "関係代名詞 who は先行詞が人のときに使う。the boy who is running = 走っている少年。"
+    "explanation": "「疲れていた。その結果、早く寝た」という原因→結果なので so「だから」。I was tired, so I went to bed early. ＝ 疲れていたので、早く寝ました。"
   },
   {
     "id": "q163",
@@ -2796,7 +2795,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "関係代名詞 which は先行詞が物・動物のときに使う。the book which I bought = 私が買った本。"
+    "explanation": "English と Japanese を並べて「英語と日本語」とするので and。He can speak English and Japanese. ＝ 彼は英語と日本語を話すことができます。"
   },
   {
     "id": "q164",
@@ -2811,7 +2810,7 @@
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "what to do = 「何をすべきか」。疑問詞 + to不定詞の形。"
+    "explanation": "There is/are ～ ＝「〜があります・います」。後ろの主語 two books は複数なので are。There are two books on the desk. ＝ 机の上に本が2冊あります。"
   },
   {
     "id": "q165",
@@ -2826,7 +2825,7 @@
     ],
     "answer": 0,
     "level": 1,
-    "explanation": "現在分詞 playing ... が girl を後ろから説明している。「ピアノを弾いている女の子」。"
+    "explanation": "There is/are ～ では、後ろの主語が単数なら is。a pen は単数なので There is a pen on the desk. ＝ 机の上にペンが1本あります。"
   },
   {
     "id": "q166",
@@ -2856,7 +2855,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "Would you like to ～? = 「～しませんか／～したいですか」。丁寧な勧誘。"
+    "explanation": "Could you help me? ＝「手伝っていただけますか」。依頼を引き受ける自然な返答は Sure. ＝「もちろん／いいですよ」。"
   },
   {
     "id": "q168",
@@ -2871,7 +2870,7 @@
     ],
     "answer": 1,
     "level": 1,
-    "explanation": "Shall I ～? = 「私が～しましょうか」。自分が何かすることを申し出る表現。"
+    "explanation": "What do you think of ～? ＝「〜をどう思いますか」。相手の意見・感想をたずねる表現。What do you think of this idea? ＝「この考えをどう思いますか」。"
   },
   {
     "id": "q169",
@@ -3182,11 +3181,11 @@
       "気孔",
       "絨毛膜",
       "肺胞",
-      "柔毛"
+      "絨毛"
     ],
     "answer": 3,
     "level": 1,
-    "explanation": "小腸の内側には柔毛（じゅうもう）が多数あり、表面積を大きくして養分を効率よく吸収する。"
+    "explanation": "小腸の内側には絨毛（じゅうもう）という多数の突起があり、表面積を大きくして養分を効率よく吸収する。"
   },
   {
     "id": "q189",
@@ -3231,7 +3230,7 @@
     ],
     "answer": 2,
     "level": 1,
-    "explanation": "水を電気分解すると水素と酸素が発生する。体積比は水素:酸素=2:1。"
+    "explanation": "水は H₂O（水素原子2個と酸素原子1個からなる物質）。電気分解すると水素H₂と酸素O₂に分かれる。反応式は 2H₂O → 2H₂ + O₂ なので、発生する気体の体積比は 水素：酸素＝2：1。"
   },
   {
     "id": "q192",
